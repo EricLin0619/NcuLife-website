@@ -1,0 +1,25 @@
+body {
+	background-image: url(../images/Background.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+banner{
+	width:1200px;
+	height:250px;
+	background-image:url(../images/Banner.jpg) ;
+	-moz-background-size:cover;
+	-webkit-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
+
+.dropdown-menu a:hover {
+    background-color: white;
+}
+
+.dropdown:hover .dropdown-menu {
+        display: block;
+}

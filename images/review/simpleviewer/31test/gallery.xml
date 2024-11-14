@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<simpleviewergallery 
+
+	useFlickr="false"
+	resizeOnImport="true"
+	cropToFit="false"
+	thumbPosition="BOTTOM"
+	thumbRows="1"
+	thumbColumns="6"
+	showOpenButton="true"
+	showFullscreenButton="true"
+
+>
+  <image imageURL="images/DSC07599.JPG"
+	thumbURL="thumbs/DSC07599.JPG"
+	linkURL="images/DSC07599.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07607.JPG"
+	thumbURL="thumbs/DSC07607.JPG"
+	linkURL="images/DSC07607.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07608.JPG"
+	thumbURL="thumbs/DSC07608.JPG"
+	linkURL="images/DSC07608.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07609.JPG"
+	thumbURL="thumbs/DSC07609.JPG"
+	linkURL="images/DSC07609.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+</simpleviewergallery>

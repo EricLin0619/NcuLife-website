@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<simpleviewergallery 
+
+	maxImageWidth="5000"
+	maxImageHeight="5000"
+	imageQuality="80"
+	thumbWidth="75"
+	thumbHeight="75"
+	thumbQuality="90"
+	useFlickr="false"
+	resizeOnImport="true"
+	cropToFit="false"
+
+>
+  <image imageURL="images/20161220-DSC02629.jpg"
+	thumbURL="thumbs/20161220-DSC02629.jpg"
+	linkURL="images/20161220-DSC02629.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02630.jpg"
+	thumbURL="thumbs/20161220-DSC02630.jpg"
+	linkURL="images/20161220-DSC02630.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02631.jpg"
+	thumbURL="thumbs/20161220-DSC02631.jpg"
+	linkURL="images/20161220-DSC02631.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02632.jpg"
+	thumbURL="thumbs/20161220-DSC02632.jpg"
+	linkURL="images/20161220-DSC02632.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02633.jpg"
+	thumbURL="thumbs/20161220-DSC02633.jpg"
+	linkURL="images/20161220-DSC02633.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02636.jpg"
+	thumbURL="thumbs/20161220-DSC02636.jpg"
+	linkURL="images/20161220-DSC02636.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02642.jpg"
+	thumbURL="thumbs/20161220-DSC02642.jpg"
+	linkURL="images/20161220-DSC02642.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02643.jpg"
+	thumbURL="thumbs/20161220-DSC02643.jpg"
+	linkURL="images/20161220-DSC02643.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02644.jpg"
+	thumbURL="thumbs/20161220-DSC02644.jpg"
+	linkURL="images/20161220-DSC02644.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02646.jpg"
+	thumbURL="thumbs/20161220-DSC02646.jpg"
+	linkURL="images/20161220-DSC02646.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02647.jpg"
+	thumbURL="thumbs/20161220-DSC02647.jpg"
+	linkURL="images/20161220-DSC02647.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02648.jpg"
+	thumbURL="thumbs/20161220-DSC02648.jpg"
+	linkURL="images/20161220-DSC02648.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02649.jpg"
+	thumbURL="thumbs/20161220-DSC02649.jpg"
+	linkURL="images/20161220-DSC02649.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02650.jpg"
+	thumbURL="thumbs/20161220-DSC02650.jpg"
+	linkURL="images/20161220-DSC02650.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02652.jpg"
+	thumbURL="thumbs/20161220-DSC02652.jpg"
+	linkURL="images/20161220-DSC02652.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02653.jpg"
+	thumbURL="thumbs/20161220-DSC02653.jpg"
+	linkURL="images/20161220-DSC02653.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02654.jpg"
+	thumbURL="thumbs/20161220-DSC02654.jpg"
+	linkURL="images/20161220-DSC02654.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02655.jpg"
+	thumbURL="thumbs/20161220-DSC02655.jpg"
+	linkURL="images/20161220-DSC02655.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02656.jpg"
+	thumbURL="thumbs/20161220-DSC02656.jpg"
+	linkURL="images/20161220-DSC02656.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02657.jpg"
+	thumbURL="thumbs/20161220-DSC02657.jpg"
+	linkURL="images/20161220-DSC02657.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02658.jpg"
+	thumbURL="thumbs/20161220-DSC02658.jpg"
+	linkURL="images/20161220-DSC02658.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02660.jpg"
+	thumbURL="thumbs/20161220-DSC02660.jpg"
+	linkURL="images/20161220-DSC02660.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02661.jpg"
+	thumbURL="thumbs/20161220-DSC02661.jpg"
+	linkURL="images/20161220-DSC02661.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02662.jpg"
+	thumbURL="thumbs/20161220-DSC02662.jpg"
+	linkURL="images/20161220-DSC02662.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02663.jpg"
+	thumbURL="thumbs/20161220-DSC02663.jpg"
+	linkURL="images/20161220-DSC02663.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02664.jpg"
+	thumbURL="thumbs/20161220-DSC02664.jpg"
+	linkURL="images/20161220-DSC02664.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02665.jpg"
+	thumbURL="thumbs/20161220-DSC02665.jpg"
+	linkURL="images/20161220-DSC02665.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02666.jpg"
+	thumbURL="thumbs/20161220-DSC02666.jpg"
+	linkURL="images/20161220-DSC02666.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02667.jpg"
+	thumbURL="thumbs/20161220-DSC02667.jpg"
+	linkURL="images/20161220-DSC02667.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02668.jpg"
+	thumbURL="thumbs/20161220-DSC02668.jpg"
+	linkURL="images/20161220-DSC02668.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02669.jpg"
+	thumbURL="thumbs/20161220-DSC02669.jpg"
+	linkURL="images/20161220-DSC02669.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02670.jpg"
+	thumbURL="thumbs/20161220-DSC02670.jpg"
+	linkURL="images/20161220-DSC02670.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02671.jpg"
+	thumbURL="thumbs/20161220-DSC02671.jpg"
+	linkURL="images/20161220-DSC02671.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02672.jpg"
+	thumbURL="thumbs/20161220-DSC02672.jpg"
+	linkURL="images/20161220-DSC02672.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02673.jpg"
+	thumbURL="thumbs/20161220-DSC02673.jpg"
+	linkURL="images/20161220-DSC02673.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02674.jpg"
+	thumbURL="thumbs/20161220-DSC02674.jpg"
+	linkURL="images/20161220-DSC02674.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02675.jpg"
+	thumbURL="thumbs/20161220-DSC02675.jpg"
+	linkURL="images/20161220-DSC02675.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02676.jpg"
+	thumbURL="thumbs/20161220-DSC02676.jpg"
+	linkURL="images/20161220-DSC02676.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02677.jpg"
+	thumbURL="thumbs/20161220-DSC02677.jpg"
+	linkURL="images/20161220-DSC02677.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20161220-DSC02678.jpg"
+	thumbURL="thumbs/20161220-DSC02678.jpg"
+	linkURL="images/20161220-DSC02678.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+</simpleviewergallery>

@@ -1,0 +1,41 @@
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0 0 0 0;
+	padding: 0 0 85 0;
+	background: #000 url(../images/housing.jpg);
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow-y: hidden;
+}
+
+h1 {
+	font-size: 20px;
+}
+
+div {
+	width: 100%;
+}
+
+table {
+	height: 90vh;
+	max-width: 900px;
+	text-align: center;
+	margin: auto;
+}
+
+img[usemap] {
+	border: none;
+	height: auto;
+	max-width: 100%;
+	width: 80%;
+	margin-top: 6%;
+	vertical-align: middle;
+}

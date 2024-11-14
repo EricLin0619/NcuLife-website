@@ -1,0 +1,29 @@
+/*跑馬燈&背景漸層*/
+#maquee_T
+{
+	width:100%;
+}
+#scrollDiv_T
+{
+	height: 50px;
+	overflow: hidden;
+	text-decoration: none;
+	text-align: center;
+}
+#scrollDiv_T a
+{
+    font-size: 28px;
+	color: #cc0000;
+    text-decoration: none;
+}
+#scrollDiv_T a:hover
+{
+    color: #800000;
+    
+	font-weight: bold;
+}
+#scrollDiv_T dt
+{
+    list-style-type:none;
+	height: 50px;
+}

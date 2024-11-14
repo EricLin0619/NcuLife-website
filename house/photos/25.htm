@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="图片轮播，图片切换，焦点图" />
+<meta name="description" content="这是一个基于jquery的图片轮播效果演示页" />
+<title>國立中央大學外宿資訊網 一氧化碳中毒宣導</title>
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../css/main.css" />
+<link rel="stylesheet" type="text/css" href="flexslider.css" />
+<link href="25/25.css" rel="stylesheet">
+<style type="text/css">
+h1{font-weight: bold; font-size: 50px; font-family:"標楷體"; text-align:center}
+h3{height:42px; line-height:42px; font-size:16px; font-weight:normal; text-align:center}
+h3 a{margin:10px}h3 a.cur{color:#f30}
+.demo{width:800px; margin:20px auto}
+</style>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js'></script>
+<script type="text/javascript" src="jquery.flexslider-min.js"></script>
+<script type="text/javascript">
+$(function() {
+    $('#carousel').flexslider({
+        animation: "slide",
+        controlNav: false,
+        animationLoop: false,
+        slideshow: false,
+        itemWidth: 210,
+        itemMargin: 5,
+        asNavFor: '#slider'
+      });
+
+      $('#slider').flexslider({
+        animation: "slide",
+        controlNav: false,
+        animationLoop: false,
+        slideshow: false,
+        itemWidth: 270,
+        sync: "#carousel"
+      });
+});	
+</script>
+</head>
+
+<body>
+<div id="container">
+	<h1>一氧化碳中毒宣導</h1>
+    <p><a href="https://www.tfdp.com.tw/cht/index.php?code=list&flag=detail&ids=165&article_id=501">內政部消防署一氧化碳防治宣導網站</a></p>
+    <p><a href="./25/1.防範CO中毒宣導簡報.pptx">國立中央大學防治co中毒宣導簡報ppt (.pptx)</a></p>
+    <p><a href="./25/1.防範CO中毒宣導簡報.odp">國立中央大學防治co中毒宣導簡報ppt (.odp)</a></p>
+    <h2>宣導海報</h2>
+    <div class="demo">
+   		<div id="slider" class="flexslider">
+          <ul class="slides">
+            <li><a href="./25/防範CO中毒海報(1).jpg"><img src="./25/防範CO中毒海報(1).jpg" /></a></li>
+            <li><a href="./25/防範CO中毒海報(2).jpg"><img src="./25/防範CO中毒海報(2).jpg" /></a></li>
+            <li><a href="./25/防範CO中毒海報(3).jpg"><img src="./25/防範CO中毒海報(3).jpg" /></a></li>
+            <li><a href="./25/防範CO中毒海報(4).png"><img src="./25/防範CO中毒海報(4).png" /></a></li>
+            <li><a href="./25/防範CO中毒海報(5).jpg"><img src="./25/防範CO中毒海報(5).jpg" /></a></li>
+          </ul>
+     	</div>
+    </div>
+   
+</div>
+
+
+
+</body>
+</html>

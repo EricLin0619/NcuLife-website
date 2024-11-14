@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<simpleviewergallery 
+
+	useFlickr="false"
+	resizeOnImport="true"
+	cropToFit="false"
+
+>
+  <image imageURL="images/1.JPG"
+	thumbURL="thumbs/1.JPG"
+	linkURL="images/1.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2.jpg"
+	thumbURL="thumbs/2.jpg"
+	linkURL="images/2.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/3.JPG"
+	thumbURL="thumbs/3.JPG"
+	linkURL="images/3.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/4.jpg"
+	thumbURL="thumbs/4.jpg"
+	linkURL="images/4.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/5.jpg"
+	thumbURL="thumbs/5.jpg"
+	linkURL="images/5.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/6.JPG"
+	thumbURL="thumbs/6.JPG"
+	linkURL="images/6.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/7.JPG"
+	thumbURL="thumbs/7.JPG"
+	linkURL="images/7.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/8.JPG"
+	thumbURL="thumbs/8.JPG"
+	linkURL="images/8.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/9.JPG"
+	thumbURL="thumbs/9.JPG"
+	linkURL="images/9.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/10.JPG"
+	thumbURL="thumbs/10.JPG"
+	linkURL="images/10.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/11.JPG"
+	thumbURL="thumbs/11.JPG"
+	linkURL="images/11.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/12.JPG"
+	thumbURL="thumbs/12.JPG"
+	linkURL="images/12.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/13.JPG"
+	thumbURL="thumbs/13.JPG"
+	linkURL="images/13.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/14.JPG"
+	thumbURL="thumbs/14.JPG"
+	linkURL="images/14.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/15.JPG"
+	thumbURL="thumbs/15.JPG"
+	linkURL="images/15.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/16.JPG"
+	thumbURL="thumbs/16.JPG"
+	linkURL="images/16.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/17.JPG"
+	thumbURL="thumbs/17.JPG"
+	linkURL="images/17.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/18.JPG"
+	thumbURL="thumbs/18.JPG"
+	linkURL="images/18.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/19.JPG"
+	thumbURL="thumbs/19.JPG"
+	linkURL="images/19.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20.JPG"
+	thumbURL="thumbs/20.JPG"
+	linkURL="images/20.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/21.JPG"
+	thumbURL="thumbs/21.JPG"
+	linkURL="images/21.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/22.JPG"
+	thumbURL="thumbs/22.JPG"
+	linkURL="images/22.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/23.JPG"
+	thumbURL="thumbs/23.JPG"
+	linkURL="images/23.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/24.JPG"
+	thumbURL="thumbs/24.JPG"
+	linkURL="images/24.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/25.JPG"
+	thumbURL="thumbs/25.JPG"
+	linkURL="images/25.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/26.JPG"
+	thumbURL="thumbs/26.JPG"
+	linkURL="images/26.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/27.JPG"
+	thumbURL="thumbs/27.JPG"
+	linkURL="images/27.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/28.JPG"
+	thumbURL="thumbs/28.JPG"
+	linkURL="images/28.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/29.JPG"
+	thumbURL="thumbs/29.JPG"
+	linkURL="images/29.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/30.JPG"
+	thumbURL="thumbs/30.JPG"
+	linkURL="images/30.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/31.JPG"
+	thumbURL="thumbs/31.JPG"
+	linkURL="images/31.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/32.JPG"
+	thumbURL="thumbs/32.JPG"
+	linkURL="images/32.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/33.JPG"
+	thumbURL="thumbs/33.JPG"
+	linkURL="images/33.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/34.JPG"
+	thumbURL="thumbs/34.JPG"
+	linkURL="images/34.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/35.JPG"
+	thumbURL="thumbs/35.JPG"
+	linkURL="images/35.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/36.JPG"
+	thumbURL="thumbs/36.JPG"
+	linkURL="images/36.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/37.JPG"
+	thumbURL="thumbs/37.JPG"
+	linkURL="images/37.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/38.JPG"
+	thumbURL="thumbs/38.JPG"
+	linkURL="images/38.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+</simpleviewergallery>

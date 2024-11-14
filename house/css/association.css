@@ -1,0 +1,57 @@
+html,
+body {
+	width: 100%;
+}
+
+body {
+	font-family: "微軟正黑體", Helvetica, Arial, sans-serif;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+h1 {
+	font-size: 50px;
+	margin: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+div {
+	width: 100%;
+}
+
+li {
+	font-size: 30px;
+	margin: 10px;
+}
+
+p {
+	text-align: center;
+	font-size: 20px;
+}
+
+table.tableizer-table {
+	font-size: 12px;
+	border: 1px solid #CCC;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.tableizer-table td {
+	padding: 4px;
+	margin: 3px;
+	border: 1px solid #CCC;
+}
+
+.tableizer-table th {
+	background-color: #104E8B;
+	color: #FFF;
+	font-weight: bold;
+}
+
+#head > p {
+	text-align: left;
+}
+
+h3 {
+	font-weight: bold;
+}

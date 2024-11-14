@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<simpleviewergallery 
+
+	useFlickr="false"
+	resizeOnImport="true"
+	cropToFit="false"
+	frameWidth="0"
+
+>
+  <image imageURL="images/photo-1.jpg"
+	thumbURL="thumbs/photo-1.jpg"
+	linkURL="images/photo-1.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-9.jpg"
+	thumbURL="thumbs/photo-9.jpg"
+	linkURL="images/photo-9.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-13.jpg"
+	thumbURL="thumbs/photo-13.jpg"
+	linkURL="images/photo-13.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-15.jpg"
+	thumbURL="thumbs/photo-15.jpg"
+	linkURL="images/photo-15.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-16.jpg"
+	thumbURL="thumbs/photo-16.jpg"
+	linkURL="images/photo-16.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-18.jpg"
+	thumbURL="thumbs/photo-18.jpg"
+	linkURL="images/photo-18.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-20.jpg"
+	thumbURL="thumbs/photo-20.jpg"
+	linkURL="images/photo-20.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-25.jpg"
+	thumbURL="thumbs/photo-25.jpg"
+	linkURL="images/photo-25.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-46.jpg"
+	thumbURL="thumbs/photo-46.jpg"
+	linkURL="images/photo-46.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-47.jpg"
+	thumbURL="thumbs/photo-47.jpg"
+	linkURL="images/photo-47.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-48.jpg"
+	thumbURL="thumbs/photo-48.jpg"
+	linkURL="images/photo-48.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-51.jpg"
+	thumbURL="thumbs/photo-51.jpg"
+	linkURL="images/photo-51.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-54.jpg"
+	thumbURL="thumbs/photo-54.jpg"
+	linkURL="images/photo-54.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-63.jpg"
+	thumbURL="thumbs/photo-63.jpg"
+	linkURL="images/photo-63.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-66.jpg"
+	thumbURL="thumbs/photo-66.jpg"
+	linkURL="images/photo-66.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-67.jpg"
+	thumbURL="thumbs/photo-67.jpg"
+	linkURL="images/photo-67.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-69.jpg"
+	thumbURL="thumbs/photo-69.jpg"
+	linkURL="images/photo-69.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-70.jpg"
+	thumbURL="thumbs/photo-70.jpg"
+	linkURL="images/photo-70.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-72.jpg"
+	thumbURL="thumbs/photo-72.jpg"
+	linkURL="images/photo-72.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-73.jpg"
+	thumbURL="thumbs/photo-73.jpg"
+	linkURL="images/photo-73.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-74.jpg"
+	thumbURL="thumbs/photo-74.jpg"
+	linkURL="images/photo-74.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-75.jpg"
+	thumbURL="thumbs/photo-75.jpg"
+	linkURL="images/photo-75.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-76.jpg"
+	thumbURL="thumbs/photo-76.jpg"
+	linkURL="images/photo-76.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-77.jpg"
+	thumbURL="thumbs/photo-77.jpg"
+	linkURL="images/photo-77.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-78.jpg"
+	thumbURL="thumbs/photo-78.jpg"
+	linkURL="images/photo-78.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-79.jpg"
+	thumbURL="thumbs/photo-79.jpg"
+	linkURL="images/photo-79.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-80.jpg"
+	thumbURL="thumbs/photo-80.jpg"
+	linkURL="images/photo-80.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-81.jpg"
+	thumbURL="thumbs/photo-81.jpg"
+	linkURL="images/photo-81.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-82.jpg"
+	thumbURL="thumbs/photo-82.jpg"
+	linkURL="images/photo-82.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-83.jpg"
+	thumbURL="thumbs/photo-83.jpg"
+	linkURL="images/photo-83.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-84.jpg"
+	thumbURL="thumbs/photo-84.jpg"
+	linkURL="images/photo-84.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-85.jpg"
+	thumbURL="thumbs/photo-85.jpg"
+	linkURL="images/photo-85.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-86.jpg"
+	thumbURL="thumbs/photo-86.jpg"
+	linkURL="images/photo-86.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-87.jpg"
+	thumbURL="thumbs/photo-87.jpg"
+	linkURL="images/photo-87.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-88.jpg"
+	thumbURL="thumbs/photo-88.jpg"
+	linkURL="images/photo-88.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-89.jpg"
+	thumbURL="thumbs/photo-89.jpg"
+	linkURL="images/photo-89.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-90.jpg"
+	thumbURL="thumbs/photo-90.jpg"
+	linkURL="images/photo-90.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-93.jpg"
+	thumbURL="thumbs/photo-93.jpg"
+	linkURL="images/photo-93.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-94.jpg"
+	thumbURL="thumbs/photo-94.jpg"
+	linkURL="images/photo-94.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-95.jpg"
+	thumbURL="thumbs/photo-95.jpg"
+	linkURL="images/photo-95.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-97.jpg"
+	thumbURL="thumbs/photo-97.jpg"
+	linkURL="images/photo-97.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-99.jpg"
+	thumbURL="thumbs/photo-99.jpg"
+	linkURL="images/photo-99.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-100.jpg"
+	thumbURL="thumbs/photo-100.jpg"
+	linkURL="images/photo-100.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-103.jpg"
+	thumbURL="thumbs/photo-103.jpg"
+	linkURL="images/photo-103.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-104.jpg"
+	thumbURL="thumbs/photo-104.jpg"
+	linkURL="images/photo-104.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-105.jpg"
+	thumbURL="thumbs/photo-105.jpg"
+	linkURL="images/photo-105.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-108.jpg"
+	thumbURL="thumbs/photo-108.jpg"
+	linkURL="images/photo-108.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-111.jpg"
+	thumbURL="thumbs/photo-111.jpg"
+	linkURL="images/photo-111.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-112.jpg"
+	thumbURL="thumbs/photo-112.jpg"
+	linkURL="images/photo-112.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-113.jpg"
+	thumbURL="thumbs/photo-113.jpg"
+	linkURL="images/photo-113.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+</simpleviewergallery>

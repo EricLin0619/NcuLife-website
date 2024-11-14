@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<simpleviewergallery 
+
+	useFlickr="false"
+	resizeOnImport="true"
+	cropToFit="false"
+	frameWidth="0"
+
+>
+  <image imageURL="images/photo-206.jpg"
+	thumbURL="thumbs/photo-206.jpg"
+	linkURL="images/photo-206.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-209.jpg"
+	thumbURL="thumbs/photo-209.jpg"
+	linkURL="images/photo-209.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-210.jpg"
+	thumbURL="thumbs/photo-210.jpg"
+	linkURL="images/photo-210.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-211.jpg"
+	thumbURL="thumbs/photo-211.jpg"
+	linkURL="images/photo-211.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-212.jpg"
+	thumbURL="thumbs/photo-212.jpg"
+	linkURL="images/photo-212.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-213.jpg"
+	thumbURL="thumbs/photo-213.jpg"
+	linkURL="images/photo-213.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-214.jpg"
+	thumbURL="thumbs/photo-214.jpg"
+	linkURL="images/photo-214.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-215.jpg"
+	thumbURL="thumbs/photo-215.jpg"
+	linkURL="images/photo-215.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-217.jpg"
+	thumbURL="thumbs/photo-217.jpg"
+	linkURL="images/photo-217.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-219.jpg"
+	thumbURL="thumbs/photo-219.jpg"
+	linkURL="images/photo-219.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-220.jpg"
+	thumbURL="thumbs/photo-220.jpg"
+	linkURL="images/photo-220.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-221.jpg"
+	thumbURL="thumbs/photo-221.jpg"
+	linkURL="images/photo-221.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-222.jpg"
+	thumbURL="thumbs/photo-222.jpg"
+	linkURL="images/photo-222.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-224.jpg"
+	thumbURL="thumbs/photo-224.jpg"
+	linkURL="images/photo-224.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-225.jpg"
+	thumbURL="thumbs/photo-225.jpg"
+	linkURL="images/photo-225.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-227.jpg"
+	thumbURL="thumbs/photo-227.jpg"
+	linkURL="images/photo-227.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-231.jpg"
+	thumbURL="thumbs/photo-231.jpg"
+	linkURL="images/photo-231.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-234.jpg"
+	thumbURL="thumbs/photo-234.jpg"
+	linkURL="images/photo-234.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/photo-236.jpg"
+	thumbURL="thumbs/photo-236.jpg"
+	linkURL="images/photo-236.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+</simpleviewergallery>

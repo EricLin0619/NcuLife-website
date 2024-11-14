@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<simpleviewergallery 
+
+	useFlickr="false"
+	resizeOnImport="true"
+	cropToFit="false"
+	thumbPosition="BOTTOM"
+	galleryStyle="COMPACT"
+	thumbColumns="7"
+	thumbRows="1"
+	frameWidth="0"
+	galleryWidth="600"
+	galleryHeight="600"
+	backgroundColor="FFFFFF"
+
+>
+  <image imageURL="images/DSC07599.JPG"
+	thumbURL="thumbs/DSC07599.JPG"
+	linkURL="images/DSC07599.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07607.JPG"
+	thumbURL="thumbs/DSC07607.JPG"
+	linkURL="images/DSC07607.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07608.JPG"
+	thumbURL="thumbs/DSC07608.JPG"
+	linkURL="images/DSC07608.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07609.JPG"
+	thumbURL="thumbs/DSC07609.JPG"
+	linkURL="images/DSC07609.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07610.JPG"
+	thumbURL="thumbs/DSC07610.JPG"
+	linkURL="images/DSC07610.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07611.JPG"
+	thumbURL="thumbs/DSC07611.JPG"
+	linkURL="images/DSC07611.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07612.JPG"
+	thumbURL="thumbs/DSC07612.JPG"
+	linkURL="images/DSC07612.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07614.JPG"
+	thumbURL="thumbs/DSC07614.JPG"
+	linkURL="images/DSC07614.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07623.JPG"
+	thumbURL="thumbs/DSC07623.JPG"
+	linkURL="images/DSC07623.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07626.JPG"
+	thumbURL="thumbs/DSC07626.JPG"
+	linkURL="images/DSC07626.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07628.JPG"
+	thumbURL="thumbs/DSC07628.JPG"
+	linkURL="images/DSC07628.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07629.JPG"
+	thumbURL="thumbs/DSC07629.JPG"
+	linkURL="images/DSC07629.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07631.JPG"
+	thumbURL="thumbs/DSC07631.JPG"
+	linkURL="images/DSC07631.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07632.JPG"
+	thumbURL="thumbs/DSC07632.JPG"
+	linkURL="images/DSC07632.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07633.JPG"
+	thumbURL="thumbs/DSC07633.JPG"
+	linkURL="images/DSC07633.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07634.JPG"
+	thumbURL="thumbs/DSC07634.JPG"
+	linkURL="images/DSC07634.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07635.JPG"
+	thumbURL="thumbs/DSC07635.JPG"
+	linkURL="images/DSC07635.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07636.JPG"
+	thumbURL="thumbs/DSC07636.JPG"
+	linkURL="images/DSC07636.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07637.JPG"
+	thumbURL="thumbs/DSC07637.JPG"
+	linkURL="images/DSC07637.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07638.JPG"
+	thumbURL="thumbs/DSC07638.JPG"
+	linkURL="images/DSC07638.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07639.JPG"
+	thumbURL="thumbs/DSC07639.JPG"
+	linkURL="images/DSC07639.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07640.JPG"
+	thumbURL="thumbs/DSC07640.JPG"
+	linkURL="images/DSC07640.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07641.JPG"
+	thumbURL="thumbs/DSC07641.JPG"
+	linkURL="images/DSC07641.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07642.JPG"
+	thumbURL="thumbs/DSC07642.JPG"
+	linkURL="images/DSC07642.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07643.JPG"
+	thumbURL="thumbs/DSC07643.JPG"
+	linkURL="images/DSC07643.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07644.JPG"
+	thumbURL="thumbs/DSC07644.JPG"
+	linkURL="images/DSC07644.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07645.JPG"
+	thumbURL="thumbs/DSC07645.JPG"
+	linkURL="images/DSC07645.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07646.JPG"
+	thumbURL="thumbs/DSC07646.JPG"
+	linkURL="images/DSC07646.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07647.JPG"
+	thumbURL="thumbs/DSC07647.JPG"
+	linkURL="images/DSC07647.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07648.JPG"
+	thumbURL="thumbs/DSC07648.JPG"
+	linkURL="images/DSC07648.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07649.JPG"
+	thumbURL="thumbs/DSC07649.JPG"
+	linkURL="images/DSC07649.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07650.JPG"
+	thumbURL="thumbs/DSC07650.JPG"
+	linkURL="images/DSC07650.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07651.JPG"
+	thumbURL="thumbs/DSC07651.JPG"
+	linkURL="images/DSC07651.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07652.JPG"
+	thumbURL="thumbs/DSC07652.JPG"
+	linkURL="images/DSC07652.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07653.JPG"
+	thumbURL="thumbs/DSC07653.JPG"
+	linkURL="images/DSC07653.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07654.JPG"
+	thumbURL="thumbs/DSC07654.JPG"
+	linkURL="images/DSC07654.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07655.JPG"
+	thumbURL="thumbs/DSC07655.JPG"
+	linkURL="images/DSC07655.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07656.JPG"
+	thumbURL="thumbs/DSC07656.JPG"
+	linkURL="images/DSC07656.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07657.JPG"
+	thumbURL="thumbs/DSC07657.JPG"
+	linkURL="images/DSC07657.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07658.JPG"
+	thumbURL="thumbs/DSC07658.JPG"
+	linkURL="images/DSC07658.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07659.JPG"
+	thumbURL="thumbs/DSC07659.JPG"
+	linkURL="images/DSC07659.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07660.JPG"
+	thumbURL="thumbs/DSC07660.JPG"
+	linkURL="images/DSC07660.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07661.JPG"
+	thumbURL="thumbs/DSC07661.JPG"
+	linkURL="images/DSC07661.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07662.JPG"
+	thumbURL="thumbs/DSC07662.JPG"
+	linkURL="images/DSC07662.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07663.JPG"
+	thumbURL="thumbs/DSC07663.JPG"
+	linkURL="images/DSC07663.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07664.JPG"
+	thumbURL="thumbs/DSC07664.JPG"
+	linkURL="images/DSC07664.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07665.JPG"
+	thumbURL="thumbs/DSC07665.JPG"
+	linkURL="images/DSC07665.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07666.JPG"
+	thumbURL="thumbs/DSC07666.JPG"
+	linkURL="images/DSC07666.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07667.JPG"
+	thumbURL="thumbs/DSC07667.JPG"
+	linkURL="images/DSC07667.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC07668.JPG"
+	thumbURL="thumbs/DSC07668.JPG"
+	linkURL="images/DSC07668.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+</simpleviewergallery>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<simpleviewergallery 
+
+	useFlickr="false"
+	resizeOnImport="true"
+	cropToFit="false"
+	thumbColumns="4"
+	frameWidth="5"
+
+>
+  <image imageURL="images/DSC00116.JPG"
+	thumbURL="thumbs/DSC00116.JPG"
+	linkURL="images/DSC00116.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC00117.JPG"
+	thumbURL="thumbs/DSC00117.JPG"
+	linkURL="images/DSC00117.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC00118.JPG"
+	thumbURL="thumbs/DSC00118.JPG"
+	linkURL="images/DSC00118.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC00120.JPG"
+	thumbURL="thumbs/DSC00120.JPG"
+	linkURL="images/DSC00120.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC00121.JPG"
+	thumbURL="thumbs/DSC00121.JPG"
+	linkURL="images/DSC00121.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC00122.JPG"
+	thumbURL="thumbs/DSC00122.JPG"
+	linkURL="images/DSC00122.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC00123.JPG"
+	thumbURL="thumbs/DSC00123.JPG"
+	linkURL="images/DSC00123.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC00124.JPG"
+	thumbURL="thumbs/DSC00124.JPG"
+	linkURL="images/DSC00124.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC00126.JPG"
+	thumbURL="thumbs/DSC00126.JPG"
+	linkURL="images/DSC00126.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC00127.JPG"
+	thumbURL="thumbs/DSC00127.JPG"
+	linkURL="images/DSC00127.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC00128.JPG"
+	thumbURL="thumbs/DSC00128.JPG"
+	linkURL="images/DSC00128.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC00129.JPG"
+	thumbURL="thumbs/DSC00129.JPG"
+	linkURL="images/DSC00129.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC00130.JPG"
+	thumbURL="thumbs/DSC00130.JPG"
+	linkURL="images/DSC00130.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC00131.JPG"
+	thumbURL="thumbs/DSC00131.JPG"
+	linkURL="images/DSC00131.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC00132.JPG"
+	thumbURL="thumbs/DSC00132.JPG"
+	linkURL="images/DSC00132.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC00134.JPG"
+	thumbURL="thumbs/DSC00134.JPG"
+	linkURL="images/DSC00134.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC00135.JPG"
+	thumbURL="thumbs/DSC00135.JPG"
+	linkURL="images/DSC00135.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC00136.JPG"
+	thumbURL="thumbs/DSC00136.JPG"
+	linkURL="images/DSC00136.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC00137.JPG"
+	thumbURL="thumbs/DSC00137.JPG"
+	linkURL="images/DSC00137.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC00138.JPG"
+	thumbURL="thumbs/DSC00138.JPG"
+	linkURL="images/DSC00138.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC00139.JPG"
+	thumbURL="thumbs/DSC00139.JPG"
+	linkURL="images/DSC00139.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC00140.JPG"
+	thumbURL="thumbs/DSC00140.JPG"
+	linkURL="images/DSC00140.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+</simpleviewergallery>

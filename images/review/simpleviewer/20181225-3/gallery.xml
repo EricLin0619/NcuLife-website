@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<simpleviewergallery 
+
+	useFlickr="false"
+	resizeOnImport="true"
+	cropToFit="false"
+
+>
+  <image imageURL="images/IMG_0803.JPG"
+	thumbURL="thumbs/IMG_0803.JPG"
+	linkURL="images/IMG_0803.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/IMG_0804.JPG"
+	thumbURL="thumbs/IMG_0804.JPG"
+	linkURL="images/IMG_0804.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/IMG_0805.JPG"
+	thumbURL="thumbs/IMG_0805.JPG"
+	linkURL="images/IMG_0805.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/IMG_0806.JPG"
+	thumbURL="thumbs/IMG_0806.JPG"
+	linkURL="images/IMG_0806.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/IMG_0807.JPG"
+	thumbURL="thumbs/IMG_0807.JPG"
+	linkURL="images/IMG_0807.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/IMG_0810.JPG"
+	thumbURL="thumbs/IMG_0810.JPG"
+	linkURL="images/IMG_0810.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/IMG_0811.JPG"
+	thumbURL="thumbs/IMG_0811.JPG"
+	linkURL="images/IMG_0811.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/IMG_0815.JPG"
+	thumbURL="thumbs/IMG_0815.JPG"
+	linkURL="images/IMG_0815.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/IMG_0817.JPG"
+	thumbURL="thumbs/IMG_0817.JPG"
+	linkURL="images/IMG_0817.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+</simpleviewergallery>

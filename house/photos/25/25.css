@@ -1,0 +1,40 @@
+html,
+body {
+  width: 100%;
+}
+
+body {
+  font-family: "標楷體", Helvetica, Arial, sans-serif;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+h1 {
+  font-family: "標楷體", Helvetica, Arial, sans-serif;
+  font-size: 50px;
+  margin: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-size: 42px;
+  margin: 18px;
+  text-align: center;
+}
+
+div.wrap {
+  display: table;
+  margin: 0 auto;
+}
+
+li {
+  font-size: 30px;
+  margin: 10px;
+}
+
+p {
+  font-family: "標楷體", Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-size: 36px;
+}
