@@ -141,7 +141,9 @@
             </ul>
         <div class="alert alert-danger alert-dismissible" role="alert">
             <marquee>
-                <a href="https://rdrc.mnd.gov.tw/" style="font-family: Impact; font-size: 18pt">國軍人才招募專區</a>
+                <a href="https://rdrc.mnd.gov.tw/" 
+                   title="前往國軍人才招募專區網站" 
+                   style="font-family: Impact; font-size: 18pt">國軍人才招募專區</a>
             </marquee>
         </div>
         <div class="tab-content">
@@ -158,25 +160,38 @@
                         <tbody>
                             <tr>
                                 <td>113</td>
-                                <td><a href="Download/國防部114年大學儲備軍官訓練團甄選(招生)簡章.pdf">113年大學儲備軍官訓練團甄選(招生)簡章</a>
+                                <td>
+                                    <a href="Download/國防部114年大學儲備軍官訓練團甄選(招生)簡章.pdf" 
+                                       title="下載113年大學儲備軍官訓練團甄選簡章PDF檔案">
+                                        113年大學儲備軍官訓練團甄選(招生)簡章
+                                    </a>
                                 </td>
                             </tr>
                             <tr>
                                 <td>109</td>
                                 <td>
-                                    <a href="Download/109大學儲備軍官甄選簡章.pdf">109大學儲備軍官甄選簡章</a>
+                                    <a href="Download/109大學儲備軍官甄選簡章.pdf" 
+                                       title="下載109大學儲備軍官甄選簡章PDF檔案">
+                                        109大學儲備軍官甄選簡章
+                                    </a>
                                 </td>
                             </tr>
                             <tr>
                                 <td>109</td>
                                 <td>
-                                    <a href="Download/國防部「民國109年國軍志願役專業預備軍官預備士 官班考選簡章」 (1).pdf">國防部「民國109年國軍志願役專業預備軍官預備士 官班考選簡章」</a>
+                                    <a href="Download/國防部「民國109年國軍志願役專業預備軍官預備士 官班考選簡章」 (1).pdf" 
+                                       title="下載國防部「民國109年國軍志願役專業預備軍官預備士 官班考選簡章」PDF檔案">
+                                        國防部「民國109年國軍志願役專業預備軍官預備士 官班考選簡章」
+                                    </a>
                                 </td>
                             </tr>
                             <tr>
                                 <td>109</td>
                                 <td>
-                                    <a href="Download/國防部軍事情報局109年志願役專業預備軍官班簡章.pdf">國防部軍事情報局109年志願役專業預備軍官班簡章</a>
+                                    <a href="Download/國防部軍事情報局109年志願役專業預備軍官班簡章.pdf" 
+                                       title="下載國防部軍事情報局109年志願役專業預備軍官班簡章PDF檔案">
+                                        國防部軍事情報局109年志願役專業預備軍官班簡章
+                                    </a>
                                 </td>
                             </tr>
                             <tr>
@@ -204,44 +219,77 @@
                     </ul>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="images/officer_leaflet/ROTC_1.jpg" height="500px" style="display: block; margin: auto;">
+                            <img src="images/officer_leaflet/ROTC_1.jpg" 
+                                 alt="ROTC宣導說明會照片1" 
+                                 height="500px" 
+                                 style="display: block; margin: auto;">
                         </div>
                         <div class="carousel-item">
-                            <img src="images/officer_leaflet/ROTC_2.jpg" height="500px" style="display: block; margin: auto;">
+                            <img src="images/officer_leaflet/ROTC_2.jpg" 
+                                 alt="ROTC宣導說明會照片2" 
+                                 height="500px" 
+                                 style="display: block; margin: auto;">
                         </div>
                         <div class="carousel-item">
-                            <img src="images/officer_leaflet/ROTC_3.jpg" height="500px" style="display: block; margin: auto;">
+                            <img src="images/officer_leaflet/ROTC_3.jpg" 
+                                 alt="ROTC宣導說明會照片3" 
+                                 height="500px" 
+                                 style="display: block; margin: auto;">
                         </div>
                         <div class="carousel-item">
-                            <img src="images/officer_leaflet/ROTC_4.jpg" height="500px" style="display: block; margin: auto;">
+                            <img src="images/officer_leaflet/ROTC_4.jpg" 
+                                 alt="ROTC宣導說明會照片4" 
+                                 height="500px" 
+                                 style="display: block; margin: auto;">
                         </div>
                         <div class="carousel-item">
-                            <img src="images/officer_leaflet/ROTC_5.jpg" height="500px" style="display: block; margin: auto;">
+                            <img src="images/officer_leaflet/ROTC_5.jpg" 
+                                 alt="ROTC宣導說明會照片5" 
+                                 height="500px" 
+                                 style="display: block; margin: auto;">
                         </div>
                         <div class="carousel-item">
-                            <img src="images/officer_leaflet/ROTC_6.jpg" height="500px" style="display: block; margin: auto;">
+                            <img src="images/officer_leaflet/ROTC_6.jpg" 
+                                 alt="ROTC宣導說明會照片6" 
+                                 height="500px" 
+                                 style="display: block; margin: auto;">
                         </div>
                         <div class="carousel-item">
-                            <img src="images/officer_leaflet/ROTC_7.jpg" height="500px" style="display: block; margin: auto;">
+                            <img src="images/officer_leaflet/ROTC_7.jpg" 
+                                 alt="ROTC宣導說明會照片7" 
+                                 height="500px" 
+                                 style="display: block; margin: auto;">
                         </div>
                         <div class="carousel-item">
-                            <img src="images/officer_leaflet/ROTC_8.jpg" height="500px" style="display: block; margin: auto;">
+                            <img src="images/officer_leaflet/ROTC_8.jpg" 
+                                 alt="ROTC宣導說明會照片8" 
+                                 height="500px" 
+                                 style="display: block; margin: auto;">
                         </div>
                         <div class="carousel-item">
-                            <img src="images/officer_leaflet/ROTC_9.jpg" height="500px" style="display: block; margin: auto;">
+                            <img src="images/officer_leaflet/ROTC_9.jpg" 
+                                 alt="ROTC宣導說明會照片9" 
+                                 height="500px" 
+                                 style="display: block; margin: auto;">
                         </div>
                         <div class="carousel-item">
-                            <img src="images/officer_leaflet/ROTC_10.jpg" height="500px" style="display: block; margin: auto;">
+                            <img src="images/officer_leaflet/ROTC_10.jpg" 
+                                 alt="ROTC宣導說明會照片10" 
+                                 height="500px" 
+                                 style="display: block; margin: auto;">
                         </div>
                         <div class="carousel-item">
-                            <img src="images/officer_leaflet/ROTC_11.jpg" height="500px" style="display: block; margin: auto;">
+                            <img src="images/officer_leaflet/ROTC_11.jpg" 
+                                 alt="ROTC宣導說明會照片11" 
+                                 height="500px" 
+                                 style="display: block; margin: auto;">
                         </div>
                     </div>
-                    <a href="#pic" class="carousel-control-prev" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
+                    <a href="#pic" class="carousel-control-prev" data-slide="prev" title="顯示上一張圖片">
+                        <span class="carousel-control-prev-icon"><</span>
                     </a>
-                    <a href="#pic" class="carousel-control-next" data-slide="next">
-                        <span class="carousel-control-next-icon"></span>
+                    <a href="#pic" class="carousel-control-next" data-slide="next" title="顯示下一張圖片">
+                        <span class="carousel-control-next-icon">></span>
                     </a>
                 </div>
             </div>

@@ -189,6 +189,7 @@
     <div class="container">
         <?php include "header.php"?>
         <div class="content" style="margin-top: 15px; margin-bottom: 15px;">
+            <h1>智慧財產權宣導專區</h1>
             <ul class="nav nav-tabs" style="margin: 15px;">
                 <li class="nav-item">
                     <a class="nav-link active" data-toggle="tab" href="#section1">最新公告</a>
@@ -221,6 +222,7 @@
             </div-->
             <div class="tab-content">
                 <div id="section1" class="container tab-pane active">
+                    <h2>最新公告</h2>
                     <div class="col-md-12">
                         <table class="table table-hover">
                             <thead>
@@ -286,10 +288,12 @@
                 </div>
 
                 <div id="section2" class="container tab-pane">
-                     <img src="images/DrugPrevention/疑似侵害他人智慧財產權處理程序.jpg" style="display: block; margin: auto; width: 100%"><br><br>
+                     <h2>侵權處理程序</h2>
+                     <img alt="疑似侵害他人智慧財產權處理程序.jpg" src="images/DrugPrevention/疑似侵害他人智慧財產權處理程序.jpg" style="display: block; margin: auto; width: 100%"><br><br>
                 </div>
 
                 <div id="section3" class="container tab-pane">
+                    <h2>活動剪影</h2>
                     <div id="pic" class="carousel slide" data-ride="carousel">
                         <ul class="carousel-indicators">
                             <li data-target="#pic" data-slide-to="0" class="active"></li>
@@ -314,90 +318,197 @@
                         </ul>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="images/characterEdu/智財1.jpg" height="500px" style="display: block; margin: auto;">
+                                <img src="images/characterEdu/智財1.jpg" 
+                                     alt="智慧財產權宣導活動照片1" 
+                                     height="500px" 
+                                     style="display: block; margin: auto;">
                             </div>
                             <div class="carousel-item">
-                                <img src="images/characterEdu/智財2.jpg" height="500px" style="display: block; margin: auto;">
+                                <img src="images/characterEdu/智財2.jpg" 
+                                     alt="智慧財產權宣導活動照片2" 
+                                     height="500px" 
+                                     style="display: block; margin: auto;">
                             </div>
                             <div class="carousel-item">
-                                <img src="images/characterEdu/智財3.jpg" height="500px" style="display: block; margin: auto;">
+                                <img src="images/characterEdu/智財3.jpg" 
+                                     alt="智慧財產權宣導活動照片3" 
+                                     height="500px" 
+                                     style="display: block; margin: auto;">
                             </div>
                             <div class="carousel-item">
-                                <img src="images/characterEdu/智財4.jpg" height="500px" style="display: block; margin: auto;">
+                                <img src="images/characterEdu/智財4.jpg" 
+                                     alt="智慧財產權宣導活動照片4" 
+                                     height="500px" 
+                                     style="display: block; margin: auto;">
                             </div>
                             <div class="carousel-item">
-                                <img src="images/characterEdu/智財5.jpg" height="500px" style="display: block; margin: auto;">
+                                <img src="images/characterEdu/智財5.jpg" 
+                                     alt="智慧財產權宣導活動照片5" 
+                                     height="500px" 
+                                     style="display: block; margin: auto;">
                             </div>
                             <div class="carousel-item">
-                                <img src="images/characterEdu/智財6.jpg" height="500px" style="display: block; margin: auto;">
+                                <img src="images/characterEdu/智財6.jpg" 
+                                     alt="智慧財產權宣導活動照片6" 
+                                     height="500px" 
+                                     style="display: block; margin: auto;">
                             </div>
                             <div class="carousel-item">
-                                <img src="images/characterEdu/智財7.jpg" height="500px" style="display: block; margin: auto;">
+                                <img src="images/characterEdu/智財7.jpg" 
+                                     alt="智慧財產權宣導活動照片7" 
+                                     height="500px" 
+                                     style="display: block; margin: auto;">
                             </div>
                             <div class="carousel-item">
-                                <img src="images/characterEdu/智財8.jpg" height="500px" style="display: block; margin: auto;">
+                                <img src="images/characterEdu/智財8.jpg" 
+                                     alt="智慧財產權宣導活動照片8" 
+                                     height="500px" 
+                                     style="display: block; margin: auto;">
                             </div>
                             <div class="carousel-item">
-                                <img src="images/characterEdu/智財9.jpg" height="500px" style="display: block; margin: auto;">
+                                <img src="images/characterEdu/智財9.jpg" 
+                                     alt="智慧財產權宣導活動照片9" 
+                                     height="500px" 
+                                     style="display: block; margin: auto;">
                             </div>
                             <div class="carousel-item">
-                                <img src="images/characterEdu/智財10.jpg" height="500px" style="display: block; margin: auto;">
+                                <img src="images/characterEdu/智財10.jpg" 
+                                     alt="智慧財產權宣導活動照片10" 
+                                     height="500px" 
+                                     style="display: block; margin: auto;">
                             </div>
                             <div class="carousel-item">
-                                <img src="images/characterEdu/智財11.jpg" height="500px" style="display: block; margin: auto;">
+                                <img src="images/characterEdu/智財11.jpg" 
+                                     alt="智慧財產權宣導活動照片11" 
+                                     height="500px" 
+                                     style="display: block; margin: auto;">
                             </div>
                             <div class="carousel-item">
-                                <img src="images/characterEdu/智財12.jpg" height="500px" style="display: block; margin: auto;">
+                                <img src="images/characterEdu/智財12.jpg" 
+                                     alt="智慧財產權宣導活動照片12" 
+                                     height="500px" 
+                                     style="display: block; margin: auto;">
                             </div>
                             <div class="carousel-item">
-                                <img src="images/characterEdu/智財13.jpg" height="500px" style="display: block; margin: auto;">
+                                <img src="images/characterEdu/智財13.jpg" 
+                                     alt="智慧財產權宣導活動照片13" 
+                                     height="500px" 
+                                     style="display: block; margin: auto;">
                             </div>
                             <div class="carousel-item">
-                                <img src="images/characterEdu/智財14.jpg" height="500px" style="display: block; margin: auto;">
+                                <img src="images/characterEdu/智財14.jpg" 
+                                     alt="智慧財產權宣導活動照片14" 
+                                     height="500px" 
+                                     style="display: block; margin: auto;">
                             </div>
                             <div class="carousel-item">
-                                <img src="images/characterEdu/智財15.jpg" height="500px" style="display: block; margin: auto;">
+                                <img src="images/characterEdu/智財15.jpg" 
+                                     alt="智慧財產權宣導活動照片15" 
+                                     height="500px" 
+                                     style="display: block; margin: auto;">
                             </div>
                             <div class="carousel-item">
-                                <img src="images/characterEdu/智財15.jpg" height="500px" style="display: block; margin: auto;">
+                                <img src="images/characterEdu/智財15.jpg" 
+                                     alt="智慧財產權宣導活動照片15" 
+                                     height="500px" 
+                                     style="display: block; margin: auto;">
                             </div>
                             <div class="carousel-item">
-                                <img src="images/characterEdu/智財16.jpg" height="500px" style="display: block; margin: auto;">
+                                <img src="images/characterEdu/智財16.jpg" 
+                                     alt="智慧財產權宣導活動照片16" 
+                                     height="500px" 
+                                     style="display: block; margin: auto;">
                             </div>
                             <div class="carousel-item">
-                                <img src="images/characterEdu/智財17.jpg" height="500px" style="display: block; margin: auto;">
+                                <img src="images/characterEdu/智財17.jpg" 
+                                     alt="智慧財產權宣導活動照片17" 
+                                     height="500px" 
+                                     style="display: block; margin: auto;">
                             </div>
                             <div class="carousel-item">
-                                <img src="images/characterEdu/智財18.jpg" height="500px" style="display: block; margin: auto;">
+                                <img src="images/characterEdu/智財18.jpg" 
+                                     alt="智慧財產權宣導活動片18" 
+                                     height="500px" 
+                                     style="display: block; margin: auto;">
                             </div>                            
                         </div>
                         <a href="#pic" class="carousel-control-prev" data-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
+                            <span class="carousel-control-prev-icon"><</span>
                         </a>
                         <a href="#pic" class="carousel-control-next" data-slide="next">
-                            <span class="carousel-control-next-icon"></span>
+                            <span class="carousel-control-next-icon">></span>
                         </a>
                         <br><br>
                     </div>
                 </div>
 
                 <div id="section4" class="container tab-pane">
+                    <h2>影音資料</h2>
                     <div class="row">
-                        <iframe width="25%" height="150" src="https://www.youtube.com/embed/DiguOPxK-5c" frameborder="1" allowfullscreen></iframe>
-                        <iframe width="25%" height="150" src="https://www.youtube.com/embed/3PYN0pm5lL8" frameborder="1" allowfullscreen></iframe>
-                        <iframe width="25%" height="150" src="https://www.youtube.com/embed/Oqwiye40OIA" frameborder="1" allowfullscreen></iframe>
-                        <iframe width="25%" height="150" src="https://www.youtube.com/embed/dIweUUsOveo" frameborder="1" allowfullscreen></iframe>
-                        <iframe width="25%" height="150" src="https://www.youtube.com/embed/uacyxvF73Iw" frameborder="1" allowfullscreen></iframe>
-                        <iframe width="25%" height="150" src="https://www.youtube.com/embed/IAHYwqK9PTI" frameborder="1" allowfullscreen></iframe>
-                        <iframe width="25%" height="150" src="https://www.youtube.com/embed/yw2OJ6u-luc" frameborder="1" allowfullscreen></iframe>
-                        <iframe width="25%" height="150" src="https://www.youtube.com/embed/vU-xWsRhHCw" frameborder="1" allowfullscreen></iframe>
-                        <iframe width="25%" height="150" src="https://www.youtube.com/embed/xqNz-n-kv4M" frameborder="1" allowfullscreen></iframe>
-                        <iframe width="25%" height="150" src="https://www.youtube.com/embed/vJ_rKEYJaEU" frameborder="1" allowfullscreen></iframe>
-                        <iframe width="25%" height="150" src="https://www.youtube.com/embed/5XzJh-OTg_4" frameborder="1" allowfullscreen></iframe>
-                        <iframe width="25%" height="150" src="https://www.youtube.com/embed/dm-_6IA5M6Q" frameborder="1" allowfullscreen></iframe>
+                        <iframe width="25%" height="150" 
+                                src="https://www.youtube.com/embed/DiguOPxK-5c" 
+                                title="智慧財產權宣導影片1" 
+                                frameborder="1" 
+                                allowfullscreen></iframe>
+                        <iframe width="25%" height="150" 
+                                src="https://www.youtube.com/embed/3PYN0pm5lL8" 
+                                title="智慧財產權宣導影片2" 
+                                frameborder="1" 
+                                allowfullscreen></iframe>
+                        <iframe width="25%" height="150" 
+                                src="https://www.youtube.com/embed/Oqwiye40OIA" 
+                                title="智慧財產權宣導影片3" 
+                                frameborder="1" 
+                                allowfullscreen></iframe>
+                        <iframe width="25%" height="150" 
+                                src="https://www.youtube.com/embed/dIweUUsOveo" 
+                                title="智慧財產權宣導影片4" 
+                                frameborder="1" 
+                                allowfullscreen></iframe>
+                        <iframe width="25%" height="150" 
+                                src="https://www.youtube.com/embed/uacyxvF73Iw" 
+                                title="智慧財產權宣導影片5" 
+                                frameborder="1" 
+                                allowfullscreen></iframe>
+                        <iframe width="25%" height="150" 
+                                src="https://www.youtube.com/embed/IAHYwqK9PTI" 
+                                title="智慧財產權宣導影片6" 
+                                frameborder="1" 
+                                allowfullscreen></iframe>
+                        <iframe width="25%" height="150" 
+                                src="https://www.youtube.com/embed/yw2OJ6u-luc" 
+                                title="智慧財產權宣導影片7" 
+                                frameborder="1" 
+                                allowfullscreen></iframe>
+                        <iframe width="25%" height="150" 
+                                src="https://www.youtube.com/embed/vU-xWsRhHCw" 
+                                title="智慧財產權宣導影片8" 
+                                frameborder="1" 
+                                allowfullscreen></iframe>
+                        <iframe width="25%" height="150" 
+                                src="https://www.youtube.com/embed/xqNz-n-kv4M" 
+                                title="智慧財產權宣導影片9" 
+                                frameborder="1" 
+                                allowfullscreen></iframe>
+                        <iframe width="25%" height="150" 
+                                src="https://www.youtube.com/embed/vJ_rKEYJaEU" 
+                                title="智慧財產權宣導影片10" 
+                                frameborder="1" 
+                                allowfullscreen></iframe>
+                        <iframe width="25%" height="150" 
+                                src="https://www.youtube.com/embed/5XzJh-OTg_4" 
+                                title="智慧財產權宣導影片11" 
+                                frameborder="1" 
+                                allowfullscreen></iframe>
+                        <iframe width="25%" height="150" 
+                                src="https://www.youtube.com/embed/dm-_6IA5M6Q" 
+                                title="智慧財產權宣導影片12" 
+                                frameborder="1" 
+                                allowfullscreen></iframe>
                     </div>
                 </div>
                 <div id="section5" class="container tab-pane">
+                    <h2>相關連結</h2>
                     <div class="list-group">
                         <a href="https://www.tipo.gov.tw/tw/mp-1.html" class="list-group-item list-group-item-action">經濟部智慧財產局</a>
                         <a href="http://www.caic.ncu.edu.tw/index.php?option=com_content&view=article&id=216&Itemid=1529&lang=tw" class="list-group-item list-group-item-action">中央大學產學營運中心</a>
