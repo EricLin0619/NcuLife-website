@@ -232,7 +232,7 @@
 
                     <div class="col-md-12">
                         <div class="p-1 p-md-2 p-lg-3">
-                        <img width="80%" src="\images\FraudPrevention\反詐騙宣傳.png" style="display: block; margin:auto;  "><br><br>
+                        <img width="80%" src="\images\FraudPrevention\反詐騙宣傳.png" style="display: block; margin:auto;" alt="反詐騙宣傳"><br><br>
                         </div>
                         <table class="table table-hover">
                             <thead>
@@ -309,7 +309,7 @@
                         面對電信等詐欺案件犯罪型態與技術不斷演化，行政院已陸續通過「打詐5 法」（《中華民國刑法》、《人口販運防制法》、《個人資料保護法》、《洗錢防制法》、《證券投資信託及顧問法》）修正草案，
                         嚴懲深偽詐騙、私行拘禁及人口販運，並加重相關詐欺罰則，強化網路平臺落實廣告實名制，並於112年5月4日通過「新世代打擊詐欺策略行動綱領 1.5 版」，精進「識詐、堵詐、阻詐、懲詐」4大面向，
                         運用公私協力推動各項防詐作為，達到「減少接觸、減少誤信、減少損害」3減目標，以全面降低詐騙受害事件。</p>
-                    <img width="500" src="\images\FraudPrevention\新世代打擊詐欺策略行動綱領 1.5版 .jpg" style="display: block; margin:auto;  "><br><br>
+                    <img alt="新世代打擊詐欺策略行動綱領 1.5版" width="500" src="\images\FraudPrevention\新世代打擊詐欺策略行動綱領 1.5版 .jpg" style="display: block; margin:auto;  "><br><br>
                     <p><b>二、推動重點</b><br>
                     <ul>
                         <li>識詐（教育宣導面）</li>
@@ -336,7 +336,7 @@
 
                     <p><b>三、結語</b><br>
                         詐騙是讓最多國人受害的犯罪型態，打詐已列為政府治安工作的重中之重。「打詐行動綱領1.5版」將透過公私協力合作，組成打詐國家隊，精進打詐策略，從法律面和技術面減少通信流及加重詐欺刑責，
-                        發揮「前端阻卻」及「後端查緝」之效用，以減少受害者，掃除詐騙集團。
+                        發揮「前端阻卻及「後端查緝」之效用，以減少受害者，掃除詐騙集團。
                     
                     
                    
@@ -358,12 +358,12 @@
                     <h5 style="text-align: right;">更新日期：2023-04-11 18:05</h5>
                     <h5 style="text-align: right;">資料來源：內政部警政署</h5>
                     <h5 style="text-align: right;">原文連結：<a href="https://165.npa.gov.tw/#/article/A/1023">警政署Q&A</a></h5>
-                    <img width="500" src="\images\FraudPrevention\人頭帳戶詐騙.png" style="display: block; margin:auto;  "><br><br>
-                    <img width="500" src="\images\FraudPrevention\假投資詐騙.png" style="display: block; margin:auto;  "><br><br>
-                    <img width="500" src="\images\FraudPrevention\假愛情交友詐騙.png" style="display: block; margin:auto;  "><br><br>
-                    <img width="500" src="\images\FraudPrevention\假網拍詐騙.png" style="display: block; margin:auto;  "><br><br>
-                    <img width="500" src="\images\FraudPrevention\假檢警詐騙.png" style="display: block; margin:auto;  "><br><br>
-                    <img width="500" src="\images\FraudPrevention\辨識解除分期詐騙.png" style="display: block; margin:auto;  "><br><br>
+                    <img width="500" src="\images\FraudPrevention\人頭帳戶詐騙.png" style="display: block; margin:auto;  " alt="人頭帳戶詐騙"><br><br>
+                    <img width="500" src="\images\FraudPrevention\假投資詐騙.png" style="display: block; margin:auto;  " alt="假投資詐騙"><br><br>
+                    <img width="500" src="\images\FraudPrevention\假愛情交友詐騙.png" style="display: block; margin:auto;  " alt="假愛情交友詐騙"><br><br>
+                    <img width="500" src="\images\FraudPrevention\假網拍詐騙.png" style="display: block; margin:auto;  " alt="假網拍詐騙"><br><br>
+                    <img width="500" src="\images\FraudPrevention\假檢警詐騙.png" style="display: block; margin:auto;  " alt="假檢警詐騙"><br><br>
+                    <img width="500" src="\images\FraudPrevention\辨識解除分期詐騙.png" style="display: block; margin:auto;  " alt="辨識解除分期詐騙"><br><br>
                     <br><br>
                 </div>
 
@@ -375,14 +375,14 @@
                                     <span>
                                         <div class="row">
                                             <div class="column">
-                                                <img width="20%"src="\images\FraudPrevention\毒品及反詐騙宣導活動\毒品及反詐騙宣導1.jpg">
-                                                <img width="20%"src="\images\FraudPrevention\毒品及反詐騙宣導活動\毒品及反詐騙宣導2.jpg">
-                                                <img width="20%"src="\images\FraudPrevention\毒品及反詐騙宣導活動\毒品及反詐騙宣導3.jpg">
-                                                <img width="20%"src="\images\FraudPrevention\毒品及反詐騙宣導活動\毒品及反詐騙宣導4.jpg">
-                                                <img width="20%"src="\images\FraudPrevention\毒品及反詐騙宣導活動\毒品及反詐騙宣導5.jpg">
-                                                <img width="20%"src="\images\FraudPrevention\毒品及反詐騙宣導活動\毒品及反詐騙宣導6.jpg">
-                                                <img width="20%"src="\images\FraudPrevention\毒品及反詐騙宣導活動\毒品及反詐騙宣導7.jpg">
-                                                <img width="20%"src="\images\FraudPrevention\毒品及反詐騙宣導活動\毒品及反詐騙宣導8.jpg">
+                                                <img width="20%"src="\images\FraudPrevention\毒品及反詐騙宣導活動\毒品及反詐騙宣導1.jpg" alt="毒品及反詐騙宣導1">
+                                                <img width="20%"src="\images\FraudPrevention\毒品及反詐騙宣導活動\毒品及反詐騙宣導2.jpg" alt="毒品及反詐騙宣導2">
+                                                <img width="20%"src="\images\FraudPrevention\毒品及反詐騙宣導活動\毒品及反詐騙宣導3.jpg" alt="毒品及反詐騙宣導3">
+                                                <img width="20%"src="\images\FraudPrevention\毒品及反詐騙宣導活動\毒品及反詐騙宣導4.jpg" alt="毒品及反詐騙宣導4">
+                                                <img width="20%"src="\images\FraudPrevention\毒品及反詐騙宣導活動\毒品及反詐騙宣導5.jpg" alt="毒品及反詐騙宣導5">
+                                                <img width="20%"src="\images\FraudPrevention\毒品及反詐騙宣導活動\毒品及反詐騙宣導6.jpg" alt="毒品及反詐騙宣導6">
+                                                <img width="20%"src="\images\FraudPrevention\毒品及反詐騙宣導活動\毒品及反詐騙宣導7.jpg" alt="毒品及反詐騙宣導7">
+                                                <img width="20%"src="\images\FraudPrevention\毒品及反詐騙宣導活動\毒品及反詐騙宣導8.jpg" alt="毒品及反詐騙宣導8">
                                             </div>
                                         </div> 
                                     </span>
@@ -394,31 +394,31 @@
                                     <span>
                                         <div class="row">
                                             <div class="column">
-                                                <img width="20%"src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_1.jpg">
-                                                <img width="20%"src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_2.jpg">
-                                                <img width="20%"src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_3.jpg">
-                                                <img width="20%"src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_4.jpg">
-                                                <img width="20%"src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_5.jpg">
-                                                <img width="20%"src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_6.jpg">
-                                                <img width="20%"src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_7.jpg">
-                                                <img width="20%"src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_8.jpg">
-                                                <img width="20%"src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_9.jpg">
-                                                <img width="20%"src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_10.jpg">
-                                                <img width="20%"src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_11.jpg">
-                                                <img width="20%"src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_12.jpg">
-                                                <img width="20%"src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_13.jpg">
-                                                <img width="20%"src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_14.jpg">
-                                                <img width="20%"src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_15.jpg">
-                                                <img width="20%"src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_16.jpg">
-                                                <img width="20%"src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_17.jpg">
-                                                <img width="20%"src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_18.jpg">
-                                                <img width="20%"src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_19.jpg">
-                                                <img width="20%"src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_20.jpg">
-                                                <img width="20%"src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_21.jpg">
-                                                <img width="20%"src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_22.jpg">
-                                                <img width="20%"src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_23.jpg">
-                                                <img width="20%"src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_24.jpg">
-                                                <img width="20%"src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_25.jpg">
+                                                <img width="20%" src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_1.jpg" alt="刑事警察局徐健銘偵查員實施反詐騙宣教活動照片1">
+                                                <img width="20%" src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_2.jpg" alt="刑事警察局徐健銘偵查員實施反詐騙宣教活動照片2">
+                                                <img width="20%" src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_3.jpg" alt="刑事警察局徐健銘偵查員實施反詐騙宣教活動照片3">
+                                                <img width="20%" src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_4.jpg" alt="刑事警察局徐健銘偵查員實施反詐騙宣教活動照片4">
+                                                <img width="20%" src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_5.jpg" alt="刑事警察局徐健銘偵查員實施反詐騙宣教活動照片5">
+                                                <img width="20%" src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_6.jpg" alt="刑事警察局徐健銘偵查員實施反詐騙宣教活動照片6">
+                                                <img width="20%" src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_7.jpg" alt="刑事警察局徐健銘偵查員實施反詐騙宣教活動照片7">
+                                                <img width="20%" src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_8.jpg" alt="刑事警察局徐健銘偵查員實施反詐騙宣教活動照片8">
+                                                <img width="20%" src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_9.jpg" alt="刑事警察局徐健銘偵查員實施反詐騙宣教活動照片9">
+                                                <img width="20%" src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_10.jpg" alt="刑事警察局徐健銘偵查員實施反詐騙宣教活動照片10">
+                                                <img width="20%" src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_11.jpg" alt="刑事警察局徐健銘偵查員實施反詐騙宣教活動照片11">
+                                                <img width="20%" src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_12.jpg" alt="刑事警察局徐健銘偵查員實施反詐騙宣教活動照片12">
+                                                <img width="20%" src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_13.jpg" alt="刑事警察局徐健銘偵查員實施反詐騙宣教活動照片13">
+                                                <img width="20%" src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_14.jpg" alt="刑事警察局徐健銘偵查員實施反詐騙宣教活動照片14">
+                                                <img width="20%" src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_15.jpg" alt="刑事警察局徐健銘偵查員實施反詐騙宣教活動照片15">
+                                                <img width="20%" src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_16.jpg" alt="刑事警察局徐健銘偵查員實施反詐騙宣教活動照片16">
+                                                <img width="20%" src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_17.jpg" alt="刑事警察局徐健銘偵查員實施反詐騙宣教活動照片17">
+                                                <img width="20%" src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_18.jpg" alt="刑事警察局徐健銘偵查員實施反詐騙宣教活動照片18">
+                                                <img width="20%" src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_19.jpg" alt="刑事警察局徐健銘偵查員實施反詐騙宣教活動照片19">
+                                                <img width="20%" src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_20.jpg" alt="刑事警察局徐健銘偵查員實施反詐騙宣教活動照片20">
+                                                <img width="20%" src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_21.jpg" alt="刑事警察局徐健銘偵查員實施反詐騙宣教活動照片21">
+                                                <img width="20%" src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_22.jpg" alt="刑事警察局徐健銘偵查員實施反詐騙宣教活動照片22">
+                                                <img width="20%" src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_23.jpg" alt="刑事警察局徐健銘偵查員實施反詐騙宣教活動照片23">
+                                                <img width="20%" src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_24.jpg" alt="刑事警察局徐健銘偵查員實施反詐騙宣教活動照片24">
+                                                <img width="20%" src="\images\FraudPrevention\刑事警察局徐健銘偵查員實施反詐騙宣教\photo_25.jpg" alt="刑事警察局徐健銘偵查員實施反詐騙宣教活動照片25">
                                             </div>
                                         </div> 
                                     </span>
@@ -430,17 +430,61 @@
                 <div id="section5" class="container tab-pane">
                     <div class="row">
                         
-                        <iframe width="25%" height="150" src="https://www.youtube.com/embed/Q3QbrNWo2jA" frameborder="1" allowfullscreen></iframe>
-                        <iframe width="25%" height="150" src="https://www.youtube.com/embed/uTUrBfR7dJg" frameborder="1" allowfullscreen></iframe>
-                        <iframe width="25%" height="150" src="https://www.youtube.com/embed/_ATVbFT4wxo" frameborder="1" allowfullscreen></iframe>
-                        <iframe width="25%" height="150" src="https://www.youtube.com/embed/7T6c_zBpxS8" frameborder="1" allowfullscreen></iframe>
-                        <iframe width="25%" height="150" src="https://www.youtube.com/embed/2cbtmF9Db9c" frameborder="1" allowfullscreen></iframe>
-                        <iframe width="25%" height="150" src="https://www.youtube.com/embed/jurvPO_o3sQ" frameborder="1" allowfullscreen></iframe>
-                        <iframe width="25%" height="150" src="https://www.youtube.com/embed/pjeN_8m93hE" frameborder="1" allowfullscreen></iframe>
-                        <iframe width="25%" height="150" src="https://www.youtube.com/embed/RrLtLBe2uR4" frameborder="1" allowfullscreen></iframe>
-                        <iframe width="25%" height="150" src="https://www.youtube.com/embed/mM5MPUqUTs4" frameborder="1" allowfullscreen></iframe>
-                        <iframe width="25%" height="150" src="https://www.youtube.com/embed/bZv13fCiU3s" frameborder="1" allowfullscreen></iframe>    
-                        <iframe width="25%" height="150" src="https://www.youtube.com/embed/5c7JeQOelis" frameborder="1" allowfullscreen></iframe>  
+                        <iframe width="25%" height="150" 
+                                src="https://www.youtube.com/embed/Q3QbrNWo2jA" 
+                                title="反詐騙宣導影片：假冒銀行客服詐騙手法解析"
+                                frameborder="1" 
+                                allowfullscreen></iframe>
+                        <iframe width="25%" height="150" 
+                                src="https://www.youtube.com/embed/uTUrBfR7dJg" 
+                                title="反詐騙宣導影片：假投資詐騙手法剖析"
+                                frameborder="1" 
+                                allowfullscreen></iframe>
+                        <iframe width="25%" height="150" 
+                                src="https://www.youtube.com/embed/_ATVbFT4wxo" 
+                                title="反詐騙宣導影片：網路購物詐騙防範指南"
+                                frameborder="1" 
+                                allowfullscreen></iframe>
+                        <iframe width="25%" height="150" 
+                                src="https://www.youtube.com/embed/7T6c_zBpxS8" 
+                                title="反詐騙宣導影片：假冒公務機關詐騙手法示警"
+                                frameborder="1" 
+                                allowfullscreen></iframe>
+                        <iframe width="25%" height="150" 
+                                src="https://www.youtube.com/embed/2cbtmF9Db9c" 
+                                title="反詐騙宣導影片：解析常見詐騙類型與防範"
+                                frameborder="1" 
+                                allowfullscreen></iframe>
+                        <iframe width="25%" height="150" 
+                                src="https://www.youtube.com/embed/jurvPO_o3sQ" 
+                                title="反詐騙宣導影片：網路交友詐騙防範教學"
+                                frameborder="1" 
+                                allowfullscreen></iframe>
+                        <iframe width="25%" height="150" 
+                                src="https://www.youtube.com/embed/pjeN_8m93hE" 
+                                title="反詐騙宣導影片：假投資APP詐騙手法揭露"
+                                frameborder="1" 
+                                allowfullscreen></iframe>
+                        <iframe width="25%" height="150" 
+                                src="https://www.youtube.com/embed/RrLtLBe2uR4" 
+                                title="反詐騙宣導影片：假求職詐騙手法預防"
+                                frameborder="1" 
+                                allowfullscreen></iframe>
+                        <iframe width="25%" height="150" 
+                                src="https://www.youtube.com/embed/mM5MPUqUTs4" 
+                                title="反詐騙宣導影片：解析詐騙集團慣用手法"
+                                frameborder="1" 
+                                allowfullscreen></iframe>
+                        <iframe width="25%" height="150" 
+                                src="https://www.youtube.com/embed/bZv13fCiU3s" 
+                                title="反詐騙宣導影片：網路購物安全守則"
+                                frameborder="1" 
+                                allowfullscreen></iframe>
+                        <iframe width="25%" height="150" 
+                                src="https://www.youtube.com/embed/5c7JeQOelis" 
+                                title="反詐騙宣導影片：防範詐騙基本準則"
+                                frameborder="1" 
+                                allowfullscreen></iframe>
                     </div>
                 </div>
                  

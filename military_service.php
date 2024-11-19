@@ -1,4 +1,4 @@
-<a?php
+<?php
  header("Content-Type: text/html;charset=utf-8");
  if (!isset($_SESSION)) { session_start(); }
 ?>
@@ -134,10 +134,13 @@
         <div>
             <div class="list-group" style="margin: 15px;">
                 <h2 style="font-weight:bold;">緩徵作業</h2>
-                <a class="list-group" style="margin: 15px;font-size:20px">  新生於入學時，須至【本校portal入口網→便捷窗口→服務櫃台(iNCU)→教務專區→學籍/註冊→學籍登錄】填寫兵役資料，生輔組將於每學期開學後一個月內辦理緩徵，學生無須另外申請。
-                </a>
+                <p class="list-group" style="margin: 15px;font-size:20px">
+                    新生於入學時，須至【本校portal入口網→便捷窗口→服務櫃台(iNCU)→教務專區→學籍/註冊→學籍登錄】填寫兵役資料，生輔組將於每學期開學後一個月內辦理緩徵，學生無須另外申請。
+                </p>
                 <div>
-                    <a href="images/Service Delayed homework.jpg" target=_blank><img src="images/Service Delayed homework.jpg" width="100%"></a>
+                    <a href="images/Service Delayed homework.jpg" target="_blank" title="點擊查看緩徵作業流程圖">
+                        <img alt="緩徵作業流程圖" src="images/Service Delayed homework.jpg" width="100%">
+                    </a>
                 </div>
                 <h2 style="font-weight:bold;">儘召作業</h2>
                 <a class="list-group" style="margin: 15px;font-size:20px">  學生如已服過兵役，須至【本校portal入口網→便捷窗口→服務櫃台(iNCU)→教務專區→學籍/註冊→學籍登錄】填寫兵役資料並上傳退伍令，生輔組將於每學期開學後一個月內辦理儘後召集，讓同學於在學期間得暫緩召集。
@@ -148,14 +151,30 @@
                     <li>可至戶籍區公所，依照相關規定及資格申請「免除當次召集申請」</li>
                     <li>需持教召令至生輔組將協助辦理「暫緩徵召用證明書」</li>
                 </ol>
-                <p style="font-size: 20px;">相關兵役法規定請參考<a style="font-weight: bold;" href="https://dca.moi.gov.tw/scrs/">內政部役政司備役替代役資訊網</a></p>
+                <p style="font-size: 20px;">相關兵役法規定請參考
+                    <a href="https://dca.moi.gov.tw/scrs/" 
+                       title="前往內政部役政司備役替代役資訊網" 
+                       target="_blank">內政部役政司備役替代役資訊網</a>
+                </p>
 
                 <h2 style="font-weight:bold;">役男出境</h2>
-                <a class="list-group" style="margin: 15px;font-size:20px"> 請參考以下連結 <a style="margin: 15px;font-size:20px" href="download/在學役男出境申請須知(1091026).pdf" target="_blank" title="【在學役男出境申請須知】">【在學役男出境申請須知】</a>
-                </a>
+                <p class="list-group" style="margin: 15px;font-size:20px">
+                    請參考以下連結 
+                    <a href="download/在學役男出境申請須知(1091026).pdf" 
+                       target="_blank" 
+                       title="下載在學役男出境申請須知PDF檔案">在學役男出境申請須知</a>
+                </p>
 
-                <h2><a style="font-weight:bold; color:#343A42;" href="derate.php">折抵役期</a></h2>
-                <h2><a style="font-weight:bold; color:#343A42;" href="officer_leaflet.php">國軍招募資訊</a></h2>
+                <h2>
+                    <a href="derate.php" 
+                       style="font-weight:bold; color:#343A42;" 
+                       title="查看折抵役期相關資訊">折抵役期</a>
+                </h2>
+                <h2>
+                    <a href="officer_leaflet.php" 
+                       style="font-weight:bold; color:#343A42;" 
+                       title="查看國軍招募相關資訊">國軍招募資訊</a>
+                </h2>
 
                 <h2 style="font-weight:bold;">常見問題</h2>
                 <h3 style="font-weight:bold;">一、什麼是緩徵？</h3>
@@ -184,11 +203,30 @@
             </div>
             <h2 style="font-weight:bold; font-size: 20px">相關連結</h2>
             <div class="list-group" style="margin: 15px;">
-                <a href="http://cis.ncu.edu.tw/iNCU/academic/register/checkStudentState" target="_blank" class="list-group-item list-group-item-action">兵役緩徵辦理進度查詢</a>
-                <a href="https://www.ris.gov.tw/departure/app/" target="_blank" class="list-group-item list-group-item-action">役男線上申請短期出境(內政部役政署)</a>
-                <a href="https://www.nca.gov.tw/stage/hp2/hp1.aspx" target="_blank" class="list-group-item list-group-item-action">分階段接受常備兵役軍事訓練系統(內政部役政署)</a>
-                <a href="https://www.nca.gov.tw/sugsys/" target="_blank" class="list-group-item list-group-item-action">一般替代役申請(內政部役政署)</a>
-                <a href="https://www.mnd.gov.tw/PublishTable.aspx?title=%E9%87%8D%E8%A6%81%E6%94%BF%E7%AD%96&Types=1%E5%B9%B4%E6%9C%9F%E7%BE%A9%E5%8B%99%E5%BD%B9%E5%B0%88%E5%8D%80/" target="_blank" class="list-group-item list-group-item-action">1年期義務役專區(國防部全球資訊網)</a>
+                <a href="http://cis.ncu.edu.tw/iNCU/academic/register/checkStudentState" 
+                   target="_blank" 
+                   class="list-group-item list-group-item-action"
+                   title="查詢兵役緩徵辦理進度">兵役緩徵辦理進度查詢</a>
+                
+                <a href="https://www.ris.gov.tw/departure/app/" 
+                   target="_blank" 
+                   class="list-group-item list-group-item-action"
+                   title="前往內政部役政署役男線上申請短期出境系統">役男線上申請短期出境(內政部役政署)</a>
+                
+                <a href="https://www.nca.gov.tw/stage/hp2/hp1.aspx" 
+                   target="_blank" 
+                   class="list-group-item list-group-item-action"
+                   title="前往內政部役政署分階段接受常備兵役軍事訓練系統">分階段接受常備兵役軍事訓練系統(內政部役政署)</a>
+                
+                <a href="https://www.nca.gov.tw/sugsys/" 
+                   target="_blank" 
+                   class="list-group-item list-group-item-action"
+                   title="前往內政部役政署一般替代役申請系統">一般替代役申請(內政部役政署)</a>
+                
+                <a href="https://www.mnd.gov.tw/PublishTable.aspx?title=%E9%87%8D%E8%A6%81%E6%94%BF%E7%AD%96&Types=1%E5%B9%B4%E6%9C%9F%E7%BE%A9%E5%8B%99%E5%BD%B9%E5%B0%88%E5%8D%80/" 
+                   target="_blank" 
+                   class="list-group-item list-group-item-action"
+                   title="前往國防部全球資訊網一年期義務役專區">1年期義務役專區(國防部全球資訊網)</a>
             </div>
         </div>
         <br>
