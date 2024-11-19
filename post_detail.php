@@ -249,27 +249,37 @@
                                     for( $i=1, $j=1; $i <= Max_File_Num; $i++ ){ 
                                         if($row_military_bulletin['attachment' . $i] == '') continue;
                                 ?>
-                    <tr>
-                        <td class="col-md-2">
-                            <div><strong><span><p>附加檔案<?php echo $j;?>：</p></span></strong></div>
-                        </td>
-                        <td class="col-md-10">
-                            <label><p>
-                                <?php
-                                    $file_path = $row_military_bulletin['attachment' . $i];
-                                    $file_name = $row_military_bulletin['attachment' . $i . '_name'];
-                                    if (!$file_name) {
-                                        $file_name = basename($file_path);
-                                    }
-                                ?>
-                                <a href="download.php?file=<?php echo urlencode($file_path); ?>&name=<?php echo urlencode($file_name); ?>" 
-                                   target="_blank" 
-                                   title="下載附件：<?php echo htmlspecialchars($file_name); ?>">
-                                    <?php echo htmlspecialchars($file_name); ?>
-                                </a>
-                            </p></label>
-                        </td>
-                    </tr>
+                    <?php
+                        $file_path = $row_military_bulletin['attachment' . $i];
+                        
+                        // 檢查是否為 PHP 檔案
+                        $file_extension = strtolower(pathinfo($file_path, PATHINFO_EXTENSION));
+                        if ($file_extension !== 'php') {  // 只有不是 PHP 檔案才顯示整個行
+                            $file_name = $row_military_bulletin['attachment' . $i . '_name'];
+                            if (!$file_name) {
+                                $file_name = basename($file_path);
+                            }
+                    ?>
+                            <tr>
+                                <td class="col-md-2">
+                                    <div><strong><span><p>附加檔案<?php echo $j;?>：</p></span></strong></div>
+                                </td>
+                                <td class="col-md-10">
+                                    <label><p>
+                                        <a href="download.php?file=<?php echo urlencode($file_path); ?>&name=<?php echo urlencode($file_name); ?>" 
+                                           target="_blank" 
+                                           title="下載附件：<?php echo htmlspecialchars($file_name); ?>">
+                                            <?php echo htmlspecialchars($file_name); ?>
+                                        </a>
+                                    </p></label>
+                                </td>
+                            </tr>
+                    <?php
+                        } else {
+                            // PHP 檔案被跳過，$j 需要減 1
+                            $j--;
+                        }
+                    ?>
                     <?php 
                                         $j++;
                                     } 
