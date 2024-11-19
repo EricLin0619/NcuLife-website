@@ -254,19 +254,20 @@
                             <div><strong><span><p>附加檔案<?php echo $j;?>：</p></span></strong></div>
                         </td>
                         <td class="col-md-10">
-                            <label><p><a href="<?php echo $row_military_bulletin['attachment' . $i]; ?>" 
-                                target="_blank" 
-                                title="下載附件：<?php 
-                                    $name = $row_military_bulletin['attachment' . $i . '_name']; 
-                                    if($name) echo $name;
-                                    else echo explode("/", $row_military_bulletin['attachment' . $i])[1];
-                                ?>">
-                                <?php 
-                                    $name = $row_military_bulletin['attachment' . $i . '_name']; 
-                                    if($name) echo $name;
-                                    else echo explode("/", $row_military_bulletin['attachment' . $i])[1];
+                            <label><p>
+                                <?php
+                                    $file_path = $row_military_bulletin['attachment' . $i];
+                                    $file_name = $row_military_bulletin['attachment' . $i . '_name'];
+                                    if (!$file_name) {
+                                        $file_name = basename($file_path);
+                                    }
                                 ?>
-                            </a></p></label>
+                                <a href="download.php?file=<?php echo urlencode($file_path); ?>&name=<?php echo urlencode($file_name); ?>" 
+                                   target="_blank" 
+                                   title="下載附件：<?php echo htmlspecialchars($file_name); ?>">
+                                    <?php echo htmlspecialchars($file_name); ?>
+                                </a>
+                            </p></label>
                         </td>
                     </tr>
                     <?php 
