@@ -2,13 +2,108 @@
 require_once('conn_military.php');
 require_once('const_variable.php');
 
+// 檢查是否有檔案參數
 if (!isset($_GET['file']) || empty($_GET['file'])) {
-    header('Location: index.php');
+    showErrorPage('未指定檔案');
     exit;
 }
 
 $file_path = $_GET['file'];
 $file_name = isset($_GET['name']) ? $_GET['name'] : basename($file_path);
+
+// 安全檢查：確保檔案在允許的目錄中
+if (!strstr($file_path, 'post_attachment/')) {
+    showErrorPage('無效的檔案路徑');
+    exit;
+}
+
+$full_path = __DIR__ . '/' . $file_path;
+
+// 檢查檔案是否存在
+if (!file_exists($full_path)) {
+    showErrorPage('檔案不存在或已被移除');
+    exit;
+}
+
+// 檢查檔案是否可讀
+if (!is_readable($full_path)) {
+    showErrorPage('檔案無法讀取');
+    exit;
+}
+
+// 顯示錯誤頁面的函數
+function showErrorPage($errorMessage) {
+    ?>
+    <!DOCTYPE html>
+    <html lang="zh-TW">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>檔案存取錯誤</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            body {
+                background-color: #f8f9fa;
+                padding: 20px;
+                min-height: 100vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .error-container {
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+                padding: 2rem;
+                text-align: center;
+                max-width: 500px;
+                width: 100%;
+            }
+
+            .error-icon {
+                color: #dc3545;
+                font-size: 3rem;
+                margin-bottom: 1rem;
+            }
+
+            .error-message {
+                color: #6c757d;
+                margin-bottom: 1.5rem;
+            }
+
+            .back-button {
+                margin-top: 1rem;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <main>
+                <div class="error-container">
+                    <div class="error-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-exclamation-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995z"/>
+                        </svg>
+                    </div>
+                    <h1>檔案存取錯誤</h1>
+                    <p class="error-message"><?php echo htmlspecialchars($errorMessage); ?></p>
+                    <div class="back-button">
+                        <a href="javascript:history.back()" class="btn btn-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+                            </svg>
+                            返回上一頁
+                        </a>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+    </html>
+    <?php
+}
 
 // 安全檢查：確保檔案在允許的目錄中
 if (!strstr($file_path, 'post_attachment/')) {
@@ -100,6 +195,15 @@ if (file_exists($full_path)) {
         <body>
             <div class="container">
                 <main>
+                    <div class="back-button">
+                        <a href="javascript:history.back()" class="btn btn-outline-secondary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+                            </svg>
+                            返回上一頁
+                        </a>
+                    </div>
+                    
                     <h1 class="page-title">檔案檢視：<?php echo htmlspecialchars($file_name); ?></h1>
                     
                     <div class="content-wrapper">

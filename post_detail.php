@@ -251,35 +251,41 @@
                                 ?>
                     <?php
                         $file_path = $row_military_bulletin['attachment' . $i];
-                        
-                        // 檢查是否為 PHP 檔案
-                        $file_extension = strtolower(pathinfo($file_path, PATHINFO_EXTENSION));
-                        if ($file_extension !== 'php') {  // 只有不是 PHP 檔案才顯示整個行
-                            $file_name = $row_military_bulletin['attachment' . $i . '_name'];
-                            if (!$file_name) {
-                                $file_name = basename($file_path);
-                            }
-                    ?>
-                            <tr>
-                                <td class="col-md-2">
-                                    <div><strong><span><p>附加檔案<?php echo $j;?>：</p></span></strong></div>
-                                </td>
-                                <td class="col-md-10">
-                                    <label><p>
-                                        <a href="download.php?file=<?php echo urlencode($file_path); ?>&name=<?php echo urlencode($file_name); ?>" 
-                                           target="_blank" 
-                                           title="下載附件：<?php echo htmlspecialchars($file_name); ?>">
-                                            <?php echo htmlspecialchars($file_name); ?>
-                                        </a>
-                                    </p></label>
-                                </td>
-                            </tr>
-                    <?php
-                        } else {
-                            // PHP 檔案被跳過，$j 需要減 1
-                            $j--;
+                        $file_name = $row_military_bulletin['attachment' . $i . '_name'];
+                        if (!$file_name) {
+                            $file_name = basename($file_path);
                         }
+                        
+                        // 取得檔案副檔名
+                        $extension = strtolower(pathinfo($file_path, PATHINFO_EXTENSION));
+                        
+                        // 定義需要直接下載的檔案類型
+                        $download_extensions = ['doc', 'docx', 'xls', 'xlsx', 'ppt', 'pptx', 'txt', 'zip', 'rar'];
                     ?>
+                    <tr>
+                        <td class="col-md-2">
+                            <div><strong><span><p>附加檔案<?php echo $j;?>：</p></span></strong></div>
+                        </td>
+                        <td class="col-md-10">
+                            <label><p>
+                                <?php if (in_array($extension, $download_extensions)): ?>
+                                    <!-- 直接下載的檔案 -->
+                                    <a href="<?php echo htmlspecialchars($file_path); ?>" 
+                                       download="<?php echo htmlspecialchars($file_name); ?>"
+                                       title="下載附件：<?php echo htmlspecialchars($file_name); ?>">
+                                        <?php echo htmlspecialchars($file_name); ?>
+                                    </a>
+                                <?php else: ?>
+                                    <!-- 使用 download.php 預覽的檔案 -->
+                                    <a href="download.php?file=<?php echo urlencode($file_path); ?>&name=<?php echo urlencode($file_name); ?>" 
+                                       target="_blank" 
+                                       title="下載附件：<?php echo htmlspecialchars($file_name); ?>">
+                                        <?php echo htmlspecialchars($file_name); ?>
+                                    </a>
+                                <?php endif; ?>
+                            </p></label>
+                        </td>
+                    </tr>
                     <?php 
                                         $j++;
                                     } 
@@ -293,38 +299,10 @@
                             <?php 
                                 $content = $row_military_bulletin['content'];
                                 
+                                // 處理圖片連結
                                 if (strpos($content, '<img') !== false) {
-                                    // 先處理單獨的 <img> 標籤
                                     $content = preg_replace_callback(
-                                        '/<img[^>]*(?<!<a[^>]*)[^>]*>/',
-                                        function($matches) use ($row_military_bulletin) {
-                                            $img = $matches[0];
-                                            
-                                            // 從圖片路徑中提取檔名
-                                            preg_match('/[^\/\\\\]+\.(jpg|jpeg|png|gif)/', $img, $filename);
-                                            $imgName = isset($filename[0]) ? $filename[0] : '';
-                                            
-                                            // 建立圖片描述
-                                            $imgDesc = $row_military_bulletin['title'] . ' 附圖';
-                                            if ($imgName) {
-                                                $imgDesc .= ' - ' . $imgName;
-                                            }
-                                            
-                                            // 替換空的 alt 屬性或添加新的 alt 屬性
-                                            if (strpos($img, 'alt=') !== false) {
-                                                $img = preg_replace('/alt="[^"]*"/', 'alt="' . htmlspecialchars($imgDesc) . '"', $img);
-                                            } else {
-                                                $img = str_replace('<img', '<img alt="' . htmlspecialchars($imgDesc) . '"', $img);
-                                            }
-                                            
-                                            return $img;
-                                        },
-                                        $content
-                                    );
-                                    
-                                    // 再處理包在 <a> 標籤中的 <img> 標籤
-                                    $content = preg_replace_callback(
-                                        '/<a[^>]*><img[^>]*><\/a>/',
+                                        '/<a[^>]*>[\s]*<img[^>]*>[\s]*<\/a>/',
                                         function($matches) use ($row_military_bulletin) {
                                             $link = $matches[0];
                                             
@@ -340,14 +318,13 @@
                                                 $linkDesc .= '：' . $imgName;
                                             }
                                             
-                                            // 替換或添加 alt 屬性
+                                            // 處理 alt 和 title 屬性
                                             if (strpos($link, 'alt=') !== false) {
                                                 $link = preg_replace('/alt="[^"]*"/', 'alt="' . htmlspecialchars($imgDesc) . '"', $link);
                                             } else {
                                                 $link = str_replace('<img', '<img alt="' . htmlspecialchars($imgDesc) . '"', $link);
                                             }
                                             
-                                            // 替換或添加 title 屬性到 <a> 標籤
                                             if (strpos($link, 'title=') !== false) {
                                                 $link = preg_replace('/title="[^"]*"/', 'title="' . htmlspecialchars($linkDesc) . '"', $link);
                                             } else {
@@ -355,6 +332,97 @@
                                             }
                                             
                                             return $link;
+                                        },
+                                        $content
+                                    );
+                                }
+                                
+                                // 處理一般連結
+                                  
+        if (strpos($content, '<a') !== false) {
+            $content = preg_replace_callback(
+                '/<a[^>]*>(.*?)<\/a>/s',
+                function($matches) use ($row_military_bulletin) {
+                    $fullMatch = $matches[0];
+                    $innerContent = $matches[1];
+                    
+                    // 檢查是否只包含圖片和空白
+                    $textContent = strip_tags($innerContent);
+                    $hasOnlyImages = (trim($textContent) === '' && strpos($innerContent, '<img') !== false);
+                    
+                    if ($hasOnlyImages) {
+                        // 在圖片後添加一個點號，並設置為透明
+                        $link = str_replace('</a>', '<span style="opacity: 0;">.</span></a>', $fullMatch);
+                        
+                        // 從連結中提取圖片檔名
+                        preg_match('/[^\/\\\\]+\.(jpg|jpeg|png|gif)/', $link, $filename);
+                        $imgName = isset($filename[0]) ? $filename[0] : '';
+                        
+                        // 建立連結描述
+                        $linkDesc = '查看' . $row_military_bulletin['title'] . '的完整圖片';
+                        if ($imgName) {
+                            $linkDesc .= '：' . $imgName;
+                        }
+                        
+                        // 確保有 title 屬性
+                        if (strpos($link, 'title=') !== false) {
+                            $link = preg_replace('/title="[^"]*"/', 'title="' . htmlspecialchars($linkDesc) . '"', $link);
+                        } else {
+                            $link = str_replace('<a', '<a title="' . htmlspecialchars($linkDesc) . '"', $link);
+                        }
+                        
+                        // 處理所有圖片的 alt 屬性
+                        $link = preg_replace_callback(
+                            '/<img[^>]*>/',
+                            function($imgMatches) use ($row_military_bulletin, $imgName) {
+                                $img = $imgMatches[0];
+                                $imgDesc = $row_military_bulletin['title'] . ' 附圖';
+                                if ($imgName) {
+                                    $imgDesc .= ' - ' . $imgName;
+                                }
+                                
+                                if (strpos($img, 'alt=') !== false) {
+                                    return preg_replace('/alt="[^"]*"/', 'alt="' . htmlspecialchars($imgDesc) . '"', $img);
+                                } else {
+                                    return str_replace('<img', '<img alt="' . htmlspecialchars($imgDesc) . '"', $img);
+                                }
+                            },
+                            $link
+                        );
+                        
+                        return $link;
+                    }
+                    
+                    return $fullMatch;
+                },
+                $content
+            );
+        }
+                                
+                                // 處理框架元素
+                                if (strpos($content, '<iframe') !== false) {
+                                    $content = preg_replace_callback(
+                                        '/<iframe[^>]*>.*?<\/iframe>/',
+                                        function($matches) use ($row_military_bulletin) {
+                                            $frame = $matches[0];
+                                            
+                                            // 確保有 title 屬性
+                                            if (strpos($frame, 'title=') === false) {
+                                                $frame = str_replace('<iframe', 
+                                                    '<iframe title="' . htmlspecialchars($row_military_bulletin['title'] . ' 相關內容') . '"',
+                                                    $frame
+                                                );
+                                            } elseif (preg_match('/title="[\s]*"/', $frame) || 
+                                                     preg_match('/title=""/', $frame)) {
+                                                // 如果 title 為空，替換為有意義的值
+                                                $frame = preg_replace(
+                                                    '/title="[^"]*"/',
+                                                    'title="' . htmlspecialchars($row_military_bulletin['title'] . ' 相關內容') . '"',
+                                                    $frame
+                                                );
+                                            }
+                                            
+                                            return $frame;
                                         },
                                         $content
                                     );
