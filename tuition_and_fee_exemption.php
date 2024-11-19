@@ -214,8 +214,8 @@
 </body>
 
 </html>
-<?php
+<!--?php
 mysql_free_result($military_bulletin);
 
 mysql_free_result($military_bulletin_top);
-?>
+?-->

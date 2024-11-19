@@ -212,14 +212,14 @@
                             <table class="table table-striped" style="margin: 15px;">
                                 <thead class="thead-dark">
                                     <tr>
-                                        <th colspan="2">給付優先順序</th>
-                                        <th colspan="2">項目</th>
+                                        <th scope="colgroup" colspan="2">給付優先順序</th>
+                                        <th scope="colgroup" colspan="2">項目</th>
                                     </tr>
                                     <tr>
-                                        <th>級距</th>
-                                        <th>家庭年收入</th>
-                                        <th>學校類別</th>
-                                        <th>大專院校</th>
+                                        <th scope="col">級距</th>
+                                        <th scope="col">家庭年收入</th>
+                                        <th scope="col">學校類別</th>
+                                        <th scope="col">大專院校</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -244,14 +244,14 @@
                             <table class="table table-striped" style="margin: 15px;">
                                 <thead class="thead-dark">
                                     <tr>
-                                        <th colspan="2">給付優先順序</th>
-                                        <th colspan="2">項目</th>
+                                        <th scope="colgroup" colspan="2">給付優先順序</th>
+                                        <th scope="colgroup" colspan="2">項目</th>
                                     </tr>
                                     <tr>
-                                        <th>級距</th>
-                                        <th>家庭年收入</th>
-                                        <th>學校類別</th>
-                                        <th>大專院校</th>
+                                        <th scope="col">級距</th>
+                                        <th scope="col">家庭年收入</th>
+                                        <th scope="col">學校類別</th>
+                                        <th scope="col">大專院校</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -368,14 +368,14 @@
                             <table class="table table-striped" style="margin: 15px;">
                                 <thead class="thead-dark">
                                     <tr>
-                                        <th colspan="2">給付優先順序</th>
-                                        <th colspan="2">項目</th>
+                                        <th scope="colgroup" colspan="2">給付優先順序</th>
+                                        <th scope="colgroup" colspan="2">項目</th>
                                     </tr>
                                     <tr>
-                                        <th>級距</th>
-                                        <th>家庭年收入</th>
-                                        <th>學校類別</th>
-                                        <th>大專院校</th>
+                                        <th scope="col">級距</th>
+                                        <th scope="col">家庭年收入</th>
+                                        <th scope="col">學校類別</th>
+                                        <th scope="col">大專院校</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -399,14 +399,14 @@
                             <table class="table table-striped" style="margin: 15px;">
                                 <thead class="thead-dark">
                                     <tr>
-                                        <th colspan="2">給付優先順序</th>
-                                        <th colspan="2">項目</th>
+                                        <th scope="colgroup" colspan="2">給付優先順序</th>
+                                        <th scope="colgroup" colspan="2">項目</th>
                                     </tr>
                                     <tr>
-                                        <th>級距</th>
-                                        <th>家庭年收入</th>
-                                        <th>學校類別</th>
-                                        <th>大專院校</th>
+                                        <th scope="col">級距</th>
+                                        <th scope="col">家庭年收入</th>
+                                        <th scope="col">學校類別</th>
+                                        <th scope="col">大專院校</th>
                                     </tr>
                                 </thead>
                                 <tbody>
