@@ -133,6 +133,7 @@
     <div class="container">
         <?php include "header.php"?>
         <div class="content" style="margin-top: 15px; margin-bottom: 15px;">
+            <h1>常見問題</h1>
             <ul class="nav nav-tabs" style="margin: 15px;">
                 <li class="nav-item">
                     <a class="nav-link active" data-toggle="tab" href="#section1">獎懲／操行／請假</a>
@@ -164,6 +165,7 @@
             </ul>
             <div class="tab-content">
                 <div id="section1" class="container tab-pane active">
+                    <h2>獎懲／操行／請假</h2>
                     <p style="font-weight:bold;">☆在學校被核予記小過，是否會通知家長?</p>
                     <p>依本校學生獎懲辦法規定，核予記大功、大過以上者，將通知學生家長或監護人。</p>
                     <p>&nbsp;</p>
@@ -178,6 +180,7 @@
                     <p>&nbsp;</p>
                 </div>
                 <div id="section2" class="container tab-pane ">
+                <h3>申請作業</h3>
                 <p style="font-weight:bold;">Q1：申請的資格條件？</p>
                         <p>A1：需符合下列條件</p>
                         <p>1、學籍資格：中華民國國民且具備本校正式學籍者（不含碩專班、學分班及延修生）</p>
@@ -209,27 +212,28 @@
                         <p>A4：學士班</p>
                         <div class="table-responsive">
                             <table class="table table-striped" style="margin: 15px;">
+                                <caption>助學金給付標準-學士班</caption>
                                 <thead class="thead-dark">
                                     <tr>
-                                        <th colspan="2">給付優先順序</th>
-                                        <th colspan="2">項目</th>
+                                        <th scope="colgroup" colspan="2">給付優先順序</th>
+                                        <th scope="colgroup" colspan="2">項目</th>
                                     </tr>
                                     <tr>
-                                        <th>級距</th>
-                                        <th>家庭年收入</th>
-                                        <th>學校類別</th>
-                                        <th>大專院校</th>
+                                        <th scope="col">級距</th>
+                                        <th scope="col">家庭年收入</th>
+                                        <th scope="col">學校類別</th>
+                                        <th scope="col">大專院校</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>第1 級</td>
+                                        <th scope="row">第1級</th>
                                         <td>70萬以下</td>
                                         <td>公立學校</td>
                                         <td>20,000</td>
                                     </tr>
                                     <tr>
-                                        <td>第2 級</td>
+                                        <th scope="row">第2級</th>
                                         <td>超過70萬～90萬以下</td>
                                         <td>公立學校</td>
                                         <td>15,000</td>
@@ -240,45 +244,46 @@
                         <p>碩博士班</p>
                         <div class="table-responsive">
                             <table class="table table-striped" style="margin: 15px;">
+                                <caption>助學金給付標準-碩博士班</caption>
                                 <thead class="thead-dark">
                                     <tr>
-                                        <th colspan="2">給付優先順序</th>
-                                        <th colspan="2">項目</th>
+                                        <th scope="colgroup" colspan="2">給付優先順序</th>
+                                        <th scope="colgroup" colspan="2">項目</th>
                                     </tr>
                                     <tr>
-                                        <th>級距</th>
-                                        <th>家庭年收入</th>
-                                        <th>學校類別</th>
-                                        <th>大專院校</th>
+                                        <th scope="col">級距</th>
+                                        <th scope="col">家庭年收入</th>
+                                        <th scope="col">學校類別</th>
+                                        <th scope="col">大專院校</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>第1 級</td>
+                                        <th scope="row">第1級</th>
                                         <td>30萬以下</td>
                                         <td>公立學校</td>
                                         <td>16,500</td>
                                     </tr>
                                     <tr>
-                                        <td>第2 級</td>
+                                        <th scope="row">第2級</th>
                                         <td>超過30萬～40萬以下</td>
                                         <td>公立學校</td>
                                         <td>12,500</td>
                                     </tr>
                                     <tr>
-                                        <td>第3 級</td>
+                                        <th scope="row">第3級</th>
                                         <td>超過40萬～50萬以下</td>
                                         <td>公立學校</td>
                                         <td>10,000</td>
                                     </tr>
                                     <tr>
-                                        <td>第4 級</td>
+                                        <th scope="row">第4級</th>
                                         <td>超過50萬～60萬以下</td>
                                         <td>公立學校</td>
                                         <td>7,500</td>
                                     </tr>
                                     <tr>
-                                        <td>第5 級</td>
+                                        <th scope="row">第5級</th>
                                         <td>超過60萬～70萬以下</td>
                                         <td>公立學校</td>
                                         <td>5,000</td>
@@ -393,7 +398,7 @@
                     <p>請至【本校portal入口網→便捷窗口→服務櫃台(iNCU)→學生學籍登錄】填寫「郵局局帳號」，所貸的書籍費、校外住宿費，將於學期中後退至個人帳戶；學分費多貸者，則退至銀行以按實貸款。</p>
                     <br>
                     <p style="font-weight:bold;">Q7：什麼是「教育部疫後就學貸款補助辦法」？誰可以申請？</p>
-                    <p>為配合一百十二年二月二十一日立法院三讀通過且經總統公布施行之「疫後強化經濟與社會韌性及全民共享經濟成果特別條例」，協助經濟負擔重之「在學中已申請就學貸款之弱勢學生」及「畢業後符合撫育十二歲以下子女或平均月收入未達四萬元等資格之貸款人」償還一年本息，減輕貸款人就學貸款還款負擔。</p>
+                    <p>為配合一百十二年二月二十一日立法院三讀通過且經總統公布施行之「疫後強化經濟與社會韌性及全民共享經濟成果特別條例」，協助經濟負擔重之「在學中已申請就學貸款之弱勢學生」及「畢業後符合撫育十二歲以下子女或平均月入未達四萬元等資格之貸款人」償還一年本息，減輕貸款人就學貸款還款負擔。</p>
                     <p>申請資格:</p>
                     <p>一、   在學貸款人：具一百十一學年度第二學期正式學籍並有就學貸款之學生，及一百十二學年度第一學期入學具正式學籍並有該學期就學貸款之學生，且各該學期具下列資格之一者：</p>
                     <ol>
@@ -450,7 +455,7 @@
                     <p>&nbsp;</p>
                     <p style="font-weight:bold;">Q4. 要如何知道學校是否幫我辦理緩徵？</p>
                     <p>ANS：</p>
-                    <p> 請至【本校portal入口網→便捷窗口→服務櫃台(iNCU)→教務專區→學籍/註冊→學籍登錄】的兵役資料表查詢。</p>
+                    <p> 請至【本校portal入口網→便捷窗口→服務櫃台(iNCU)→教務專區學籍/註冊→學籍登錄】的兵役資料表查詢。</p>
                     
                     <p>&nbsp;</p>
                     <p style="font-weight:bold;">Q5. 什麼是緩徵原因消滅？休學中途離校會不會被調去當兵？</p>
@@ -534,7 +539,7 @@
                     <p>可依據行政院消費者保護委員會第47次委員會議通過:中華民國105年6月23日內政部內授中辦地字第1051305384號公告(中華民國106年1月1日生效)，相關內容請參考<a href="http://military.ncu.edu.tw/house/Contract.html">此連結</a>。</p>
                     <p>&nbsp;</p>
                     <p style="font-weight:bold;">☆遺失物認領程序？</p>
-                    <p>經當事人於公告網頁照片中確認為物品當事人後，攜雙證件至軍訓室辦理簽收領取。</p>
+                    <p>經當事人於公告網頁照片中確認為物品當事人後，攜證件至軍訓室辦理簽收領取。</p>
                     <p>&nbsp;</p>
                     <p style="font-weight:bold;">☆學校辦理年度遺失物義(拍)賣活動時間為何？</p>
                     <p>每年1月與7月辦理前年度遺失物義(拍)賣活動，相關訊息公告於軍訓室與中大首頁外，學生宿舍各院系FB均會公告。</p>
@@ -548,7 +553,7 @@
                     <p>3. 向學校反映及報警處理。</p>
                     <p>&nbsp;</p>
                     <p style="font-weight:bold;">☆大專校院學生申請二階段常備兵役軍事訓練之對象為何？</p>
-                    <p>1. 83年次以後役男目前就讀國內、國外或大陸地區之大學第一學年或五專第三學年在學學生。</p>
+                    <p>1. 83年次以後役男目前就讀國內、國外或大陸地之大學第一學年或五專第三學年在學學生。</p>
                     <p>2. 85年次接近役齡男子符合上揭條件者（渠等申請二階段常備兵役軍事訓練，即視為志願提前接受徵兵處理），亦可提出申請。</p>
                     <p>&nbsp;</p>
                     <p style="font-weight:bold;">☆大專校院學生申請二階段常備兵役軍事訓練，如何提出申請？</p>
@@ -563,6 +568,7 @@
                     <p>&nbsp;</p>
                 </div>
                 <div id="section9" class="container tab-pane">
+                    <h2>研究生獎助學金常見問題</h2>
                     <p style="font-weight:bold;">Q1：我是在職學生可以申請研究生獎助學金？</p>
                     <p>ANS：</p>
                     <p>本校研究生獎助學第三條有規定~全職工作者不得申請獎助學金</p>

@@ -3,30 +3,27 @@
 <?php
     $pdf_file = $_GET['pdf_file'];
 ?>
+<title>國立中央大學防制霸凌專區</title>
  
 <body>
-    
-  <?php include 'navbar.php';?>
-  <div class="container">
-    <!-- <div class="row">
-      <embed src="./document/反霸凌流程圖.pdf" width="600" height="1200" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
-
-    </div> -->
-    <div class="row">
-        <p></p>
+    <?php include 'navbar.php';?>
+    <div class="container">
+        <main>
+            <h1 style="text-align:center;">防制霸凌專區</h1>
+            <h2 style="text-align:center;"><?php echo $pdf_file;?></h2>
+            
+            <div class="row" style="border: 0.5rem solid;">
+                <embed src="./document/<?php echo $pdf_file;?>.pdf" 
+                       width="1000%" 
+                       height="700" 
+                       title="<?php echo $pdf_file;?>" 
+                       alt="<?php echo $pdf_file;?> PDF文件" 
+                       pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
+            </div>
+        </main>
     </div>
-    <h1 style="text-align:center;"><?php echo $pdf_file;?></h1>
-    <div class="row" style="border: 0.5rem solid;">
-      <embed src="./document/<?php echo $pdf_file;?>.pdf" width="1000%" height="700" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
 
-    </div>
-    <div class="row">
-        <p></p>
-    </div>
-  </div>
-
-  <?php include 'footer.php';?>
-
+    <?php include 'footer.php';?>
 </body>
 
 </html>
