@@ -277,7 +277,82 @@
                         <td class="col-md-2">
                             <div><strong><span><p>公告內容：</p></span></strong></div>
                         </td>
-                        <td class="col-md-10"><div><?php echo $row_military_bulletin['content']; ?></div></td>
+                        <td class="col-md-10">
+                            <div>
+                            <?php 
+                                $content = $row_military_bulletin['content'];
+                                
+                                if (strpos($content, '<img') !== false) {
+                                    // 先處理單獨的 <img> 標籤
+                                    $content = preg_replace_callback(
+                                        '/<img[^>]*(?<!<a[^>]*)[^>]*>/',
+                                        function($matches) use ($row_military_bulletin) {
+                                            $img = $matches[0];
+                                            
+                                            // 從圖片路徑中提取檔名
+                                            preg_match('/[^\/\\\\]+\.(jpg|jpeg|png|gif)/', $img, $filename);
+                                            $imgName = isset($filename[0]) ? $filename[0] : '';
+                                            
+                                            // 建立圖片描述
+                                            $imgDesc = $row_military_bulletin['title'] . ' 附圖';
+                                            if ($imgName) {
+                                                $imgDesc .= ' - ' . $imgName;
+                                            }
+                                            
+                                            // 替換空的 alt 屬性或添加新的 alt 屬性
+                                            if (strpos($img, 'alt=') !== false) {
+                                                $img = preg_replace('/alt="[^"]*"/', 'alt="' . htmlspecialchars($imgDesc) . '"', $img);
+                                            } else {
+                                                $img = str_replace('<img', '<img alt="' . htmlspecialchars($imgDesc) . '"', $img);
+                                            }
+                                            
+                                            return $img;
+                                        },
+                                        $content
+                                    );
+                                    
+                                    // 再處理包在 <a> 標籤中的 <img> 標籤
+                                    $content = preg_replace_callback(
+                                        '/<a[^>]*><img[^>]*><\/a>/',
+                                        function($matches) use ($row_military_bulletin) {
+                                            $link = $matches[0];
+                                            
+                                            // 從連結中提取圖片檔名
+                                            preg_match('/[^\/\\\\]+\.(jpg|jpeg|png|gif)/', $link, $filename);
+                                            $imgName = isset($filename[0]) ? $filename[0] : '';
+                                            
+                                            // 建立圖片和連結描述
+                                            $imgDesc = $row_military_bulletin['title'] . ' 附圖';
+                                            $linkDesc = '查看' . $row_military_bulletin['title'] . '的完整圖片';
+                                            if ($imgName) {
+                                                $imgDesc .= ' - ' . $imgName;
+                                                $linkDesc .= '：' . $imgName;
+                                            }
+                                            
+                                            // 替換或添加 alt 屬性
+                                            if (strpos($link, 'alt=') !== false) {
+                                                $link = preg_replace('/alt="[^"]*"/', 'alt="' . htmlspecialchars($imgDesc) . '"', $link);
+                                            } else {
+                                                $link = str_replace('<img', '<img alt="' . htmlspecialchars($imgDesc) . '"', $link);
+                                            }
+                                            
+                                            // 替換或添加 title 屬性到 <a> 標籤
+                                            if (strpos($link, 'title=') !== false) {
+                                                $link = preg_replace('/title="[^"]*"/', 'title="' . htmlspecialchars($linkDesc) . '"', $link);
+                                            } else {
+                                                $link = str_replace('<a', '<a title="' . htmlspecialchars($linkDesc) . '"', $link);
+                                            }
+                                            
+                                            return $link;
+                                        },
+                                        $content
+                                    );
+                                }
+                                
+                                echo $content;
+                            ?>
+                            </div>
+                        </td>
                     </tr>
                 </table>
                 <input type="hidden" name="MM_insert" value="form1" />
