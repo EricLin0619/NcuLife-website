@@ -15,10 +15,11 @@
     $startRow_military_bulletin = $pageNum_military_bulletin * $maxRows_military_bulletin;
 
     if (isset($_GET['class'])) { 
-        $class_select = "WHERE `class` ='".$_GET['class']."' AND `day_end` <= '$today'"; 
-    }
-    else{ 
-        $class_select = "WHERE `day_end` <= '$today'";
+        $stmt = $conn_military->prepare("SELECT * FROM military_bulletin WHERE class = ? AND day_end <= ?");
+        $stmt->bind_param("si", $_GET['class'], $today);
+    } else {
+        $stmt = $conn_military->prepare("SELECT * FROM military_bulletin WHERE day_end <= ?");
+        $stmt->bind_param("i", $today);
     }
 
     mysqli_select_db($conn_military, $database_conn_military);
@@ -180,82 +181,106 @@
     <?php include "navbar.php"?>
     <div class="container">
         <?php include "header.php"?>
-        
-        <div class="content" style="margin-top: 15px; margin-bottom: 15px;">
-            <ul class="nav nav-tabs" style="margin: 15px;">
-                <li class="nav-item">
-                    <a class="nav-link active" data-toggle="tab" href="#section1">最新消息</a>
-                </li>
-            </ul>
-        <div class="tab-content">
-                <div id="section1" class="container tab-pane active">
-                    <div class="col-md-10">
-                        <table class="table table-hover">
-                            <thead>
-                                <tr class="text-center">
-                                    <th class="col-md-3 col-xs-3 col-lg-2">公告日期</th>
-                                    <th class="col-md-3 col-xs-3 col-lg-2">公告類別</th>
-                                    <th class="col-md-6 col-xs-6 col-lg-8">公告標題</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <?php if($totalRows_military_bulletin_top > 0 && $pageNum_military_bulletin == 0){ ?>
-                                <?php do { ?>
-                                <?php } while ($row_military_bulletin_top = mysqli_fetch_assoc($military_bulletin_top)); ?>
-                                <?php } ?>
-                                <?php do { ?>
-                                <tr>
-                                    <td><?php echo substr($row_military_bulletin['time'],0,10);?></td>
-                                    <td><?php echo $row_military_bulletin['class'];?></td>
-                                    <td><a href="post_detail.php?no=<?php echo $row_military_bulletin['no'];?>"><?php echo $row_military_bulletin['title'];?></a></td>
-                                </tr>
-                                <?php } while ($row_military_bulletin = mysqli_fetch_assoc($military_bulletin)); ?>
-                                <tr>
-                                    <td colspan="3" class="text-center"></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        <nav class="text-center hidden-xs hidden-sm">
-                            <ul class="pagination">
-                                <?php
-                                    $queryString_military_bulletin = "";
-                                    if (empty($_GET['class'])){
-                                ?>
-                                <li><a href="<?php printf("%s?pageNum_military_bulletin=%d%s", $currentPage, 0, $queryString_military_bulletin); ?>"><span aria-hidden="true">第一頁</span></a></li>
-                                <?php
-                                            for($i = 1; $i <= $totalPages_military_bulletin; $i++){
-                                                ?>
-                                <li><a href="<?php printf("%s?pageNum_military_bulletin=%d%s", $currentPage, $i-1, $queryString_military_bulletin); ?>"><?php echo $i ?></a></li>
-                                <?php
-                                            }
-                                            ?>
-                                <li><a href="<?php printf("%s?pageNum_military_bulletin=%d%s", $currentPage, $totalPages_military_bulletin, $queryString_military_bulletin); ?>"><span aria-hidden="true">最末頁</span></a></li>
-                                <?php
-                                        }
-                                        else if (!empty($_GET['class']))
-                                        {
-                                            $c = $_GET['class'];
-                                            ?>
-                                <li><a href="<?php printf("%s?class=$c&pageNum_military_bulletin=%d%s", $currentPage, 0, $queryString_military_bulletin); ?>"><span aria-hidden="true">第一頁</span></a></li>
-                                <?php
-                                            for($i = 0; $i <= $totalPages_military_bulletin; $i++){
-                                                ?>
-                                <li><a href="<?php printf("%s?class=$c&pageNum_military_bulletin=%d%s", $currentPage, $i, $queryString_military_bulletin); ?>"><?php echo ($i+1) ?></a></li>
-                                <?php
-                                            }
-                                            ?>
-                                <li><a href="<?php printf("%s?class=$c&pageNum_military_bulletin=%d%s", $currentPage, $totalPages_military_bulletin, $queryString_military_bulletin); ?>"><span aria-hidden="true">最末頁</span></a></li>
-                                <?php
-                                        }
+        <main>
+            <!-- 主標題 -->
+            <h1 class="sr-only">品德法治教育</h1>
+            
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="content" style="margin-top: 15px; margin-bottom: 15px;">
+                        <!-- 次標題 -->
+                        <h2 class="nav nav-tabs" style="margin: 15px;">
+                            <span class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#section1">最新消息</a>
+                            </span>
+                        </h2>
+                        
+                        <div class="tab-content">
+                            <div id="section1" class="tab-pane active">
+                                <div class="table-responsive">
+                                    <table class="table table-hover">
+                                        <!-- 表格標題 -->
+                                        <caption class="sr-only">品德法治教育公告列表</caption>
+                                        <thead>
+                                            <tr class="text-center">
+                                                <th scope="col" class="col-md-3 col-xs-3 col-lg-2">公告日期</th>
+                                                <th scope="col" class="col-md-3 col-xs-3 col-lg-2">公告類別</th>
+                                                <th scope="col" class="col-md-6 col-xs-6 col-lg-8">公告標題</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <?php if($totalRows_military_bulletin_top > 0 && $pageNum_military_bulletin == 0){ ?>
+                                            <?php do { ?>
+                                            <?php } while ($row_military_bulletin_top = mysqli_fetch_assoc($military_bulletin_top)); ?>
+                                            <?php } ?>
+                                            <?php do { ?>
+                                            <tr>
+                                                <td><?php echo substr($row_military_bulletin['time'],0,10);?></td>
+                                                <td><?php echo $row_military_bulletin['class'];?></td>
+                                                <td><a href="post_detail.php?no=<?php echo $row_military_bulletin['no'];?>"><?php echo $row_military_bulletin['title'];?></a></td>
+                                            </tr>
+                                            <?php } while ($row_military_bulletin = mysqli_fetch_assoc($military_bulletin)); ?>
+                                            <tr>
+                                                <td colspan="3" class="text-center"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                
+                                <!-- 分頁導航 -->
+                                <nav aria-label="公告列表分頁">
+                                    <ul class="pagination justify-content-center">
+                                        <?php
+                                            $queryString_military_bulletin = "";
+                                            if (empty($_GET['class'])){
                                         ?>
-                            </ul>
-                        </nav>
+                                        <li class="page-item">
+                                            <a class="page-link" href="<?php printf("%s?pageNum_military_bulletin=%d%s", $currentPage, 0, $queryString_military_bulletin); ?>"><span aria-hidden="true">第一頁</span></a>
+                                        </li>
+                                        <?php
+                                                    for($i = 1; $i <= $totalPages_military_bulletin; $i++){
+                                                        ?>
+                                        <li class="page-item">
+                                            <a class="page-link" href="<?php printf("%s?pageNum_military_bulletin=%d%s", $currentPage, $i-1, $queryString_military_bulletin); ?>"><?php echo $i ?></a>
+                                        </li>
+                                        <?php
+                                                    }
+                                                    ?>
+                                        <li class="page-item">
+                                            <a class="page-link" href="<?php printf("%s?pageNum_military_bulletin=%d%s", $currentPage, $totalPages_military_bulletin, $queryString_military_bulletin); ?>"><span aria-hidden="true">最末頁</span></a>
+                                        </li>
+                                        <?php
+                                                }
+                                                else if (!empty($_GET['class']))
+                                                {
+                                                    $c = $_GET['class'];
+                                                    ?>
+                                        <li class="page-item">
+                                            <a class="page-link" href="<?php printf("%s?class=$c&pageNum_military_bulletin=%d%s", $currentPage, 0, $queryString_military_bulletin); ?>"><span aria-hidden="true">第一頁</span></a>
+                                        </li>
+                                        <?php
+                                                    for($i = 0; $i <= $totalPages_military_bulletin; $i++){
+                                                        ?>
+                                        <li class="page-item">
+                                            <a class="page-link" href="<?php printf("%s?class=$c&pageNum_military_bulletin=%d%s", $currentPage, $i, $queryString_military_bulletin); ?>"><?php echo ($i+1) ?></a>
+                                        </li>
+                                        <?php
+                                                    }
+                                                    ?>
+                                        <li class="page-item">
+                                            <a class="page-link" href="<?php printf("%s?class=$c&pageNum_military_bulletin=%d%s", $currentPage, $totalPages_military_bulletin, $queryString_military_bulletin); ?>"><span aria-hidden="true">最末頁</span></a>
+                                        </li>
+                                        <?php
+                                                }
+                                                ?>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>    
-        </div>
-        <br>
-        <hr><br>
+            </div>
+        </main>
     </div>
 
     <?php include "footer.php"?>
