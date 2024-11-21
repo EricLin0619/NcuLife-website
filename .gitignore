@@ -149,7 +149,9 @@ simv.db.dir/
 # Infrastructure necessary to co-simulate SystemC models with
 # Verilog/VHDL models.  An alternate directory may be specified with this
 # switch:  -Mdir=<directory_path>
-csrc/
+csrc/images/
+csrc/Download/
+csrc/security_img/
 
 # Log file - the following switch allows to specify the file that will be
 # used to write all messages from simulation:  -l <filename>

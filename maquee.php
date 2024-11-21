@@ -35,7 +35,7 @@
                title="瓦斯熱水器使用安全須知">提醒各位同學使用瓦斯熱水器，須注意室內保持空氣流通</a>
         </dt>
         <dt>
-            <a href="http://military.ncu.edu.tw/CSRC/fraud.php" 
+            <a href="index.php" 
                title="校園安全公告：預防詐騙資訊">預防七大熱門詐騙請參閱校園安全公告</a>
         </dt>
         <!--
