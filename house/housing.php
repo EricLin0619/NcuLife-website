@@ -8,7 +8,7 @@ $row_military_bulletin_top = mysqli_fetch_assoc($military_bulletin_top);
 // print_r($row_military_bulletin_top);
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="zh-TW">
 
 <head>
 	<meta charset="utf-8" />

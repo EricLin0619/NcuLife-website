@@ -145,8 +145,9 @@ $military_bulletin_top = mysqli_query($conn_military, $query_military_bulletin_t
 $row_military_bulletin_top = mysqli_fetch_assoc($military_bulletin_top);
 $totalRows_military_bulletin_top = mysqli_num_rows($military_bulletin_top);
 ?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/LAF.dwt" codeOutsideHTMLIsLocked="false" -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-TW"><!-- InstanceBegin template="/Templates/LAF.dwt" codeOutsideHTMLIsLocked="false" -->
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -185,7 +186,7 @@ $totalRows_military_bulletin_top = mysqli_num_rows($military_bulletin_top);
     .style5 {
       font-size: 15px
     }
-    -->
+  >
   </style>
   <script src="js/jquery-1.10.2.min.js"></script>
   <script src="js/lightbox-2.6.min.js"></script>
@@ -273,7 +274,7 @@ Flash-Templates-Today.com - Gives a possibility to obtain a ready free flash tem
                                               echo $_GET['class_type'] . '.png';
                                             } else {
                                               echo '0.png';
-                                            } ?>" width="100" height="100" />　失物招領事件列表　</h2>
+                                            } ?>" width="100" height="100" alt="失物招領事件列表"/>　失物招領事件列表　</h2>
 
 
                       <div class="container tab-pane active">

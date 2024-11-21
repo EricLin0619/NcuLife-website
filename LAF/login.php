@@ -55,7 +55,7 @@ if (isset($_POST['username'])) {
 }
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/LAF.dwt" codeOutsideHTMLIsLocked="false" -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-TW"><!-- InstanceBegin template="/Templates/LAF.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <!-- InstanceBeginEditable name="doctitle" -->
@@ -81,7 +81,7 @@ if (isset($_POST['username'])) {
 	color: #FF0000;
 	font-weight: bold;
 }
--->
+>
 </style>
 <!-- InstanceEndEditable -->
 </head>
@@ -124,13 +124,13 @@ Flash-Templates-Today.com - Gives a possibility to obtain a ready free flash tem
                       <div class="tr">
                         <p>
                         <?php if (isset($_SESSION['LAF_user'])){?>
-                        <a href="add.php">填寫</a>　 
-                        <a href="list.php">查詢</a>　 
-                        <a href="search.php">搜尋</a>　 
-                        <a href="statistics.php">學院-類別統計</a>　 
-                        <a href="statistics2.php">月份-類別統計</a>　 
-                        <a href="statistics3.php">月份-地點統計</a>　 
-                        <a href="statistics4.php">結果-類別統計</a>　 
+                        <a href="add.php" title="填寫">填寫</a>　 
+                        <a href="list.php" title="查詢">查詢</a>　 
+                        <a href="search.php" title="搜尋">搜尋</a>　 
+                        <a href="statistics.php" title="學院-類別統計">學院-類別統計</a>　 
+                        <a href="statistics2.php" title="月份-類別統計">月份-類別統計</a>　 
+                        <a href="statistics3.php" title="月份-地點統計">月份-地點統計</a>　 
+                        <a href="statistics4.php" title="結果-類別統計">結果-類別統計</a>　 
                         <a href="logout.php">使用者登出</a>
                         <?php }else{?>
                         <a href="login.php">管理專區</a>
@@ -156,31 +156,54 @@ Flash-Templates-Today.com - Gives a possibility to obtain a ready free flash tem
                     <div class="tr">
                       <h2>使用者登入</h2>
                       <form id="form1" name="form1" method="POST" action="">
-                  <p align="center" class="smalltitle">
-                    <?php 
-                    if (isset($_GET['error']))  { // Show If Var Is Set ?>
-                      <span class="style1">帳密錯誤! 請重新輸入!</span>
-                    
-                      <?php } // Show If Var Is Set ?>
-                    <?php
-                    if (isset($_GET['nopermission']))  { // Show If Var Is Set ?>
-                    <span class="style1">該帳號無此權限!</span>
-                  
-                    <?php } // Show If Var Is Set ?></p>
-                  <table width="374" border="0" align="center">
-                    <tr>
-                      <td width="101"><div align="right">帳號：</div></td>
-                      <td width="263"><input name="username" type="text" id="username" /></td>
-                    </tr>
-                    <tr>
-                      <td><div align="right">密碼：</div></td>
-                      <td><input name="password" type="password" id="password" />
-                      　  
-                        <input type="submit" name="Submit" value="登入" /></td>
-                    </tr>
-                  </table>
-                  <p>&nbsp;</p>
-                </form>
+                        <p align="center" class="smalltitle">
+                            <?php if (isset($_GET['error'])): ?>
+                                <span class="style1">帳密錯誤! 請重新輸入!</span>
+                            <?php endif; ?>
+                            <?php if (isset($_GET['nopermission'])): ?>
+                                <span class="style1">該帳號無此權限!</span>
+                            <?php endif; ?>
+                        </p>
+                        
+                        <table width="374" border="0" align="center">
+                            <tr>
+                                <td width="101">
+                                    <label for="username">帳號：</label>
+                                </td>
+                                <td width="263">
+                                    <input 
+                                        name="username" 
+                                        type="text" 
+                                        id="username" 
+                                        title="請輸入帳號"
+                                        required 
+                                        aria-required="true"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="password">密碼：</label>
+                                </td>
+                                <td>
+                                    <input 
+                                        name="password" 
+                                        type="password" 
+                                        id="password" 
+                                        title="請輸入密碼"
+                                        required 
+                                        aria-required="true"
+                                    />
+                                    <input 
+                                        type="submit" 
+                                        name="Submit" 
+                                        value="登入" 
+                                        title="點擊登入"
+                                    />
+                                </td>
+                            </tr>
+                        </table>
+                      </form>
                     </div>
                   </div>
                 </div>
