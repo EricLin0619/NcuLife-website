@@ -12,9 +12,9 @@ $row_military_bulletin_top = mysqli_fetch_assoc($military_bulletin_top);
 
 <head>
 	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="HandheldFriendly" content="True" />
 	<meta name="MobileOptimized" content="320" />
-	<meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1" />
 	<title>國立中央大學外宿資訊網</title>
 
 	<!-- Bootstrap -->
@@ -117,10 +117,10 @@ $row_military_bulletin_top = mysqli_fetch_assoc($military_bulletin_top);
 
 <body>
 	<div class="container">
+		<h1>國立中央大學外宿資訊網</h1>
 		<div class="menu-container">
-
+			<h2>外宿資訊選單</h2>
 			<div class="circle-menu-box">
-
 				<a href="http://house.nfu.edu.tw/NCU" class="menu-item">
 					<span class="fa fa-home">雲端<br>租屋網</span>
 				</a>
@@ -159,6 +159,7 @@ $row_military_bulletin_top = mysqli_fetch_assoc($military_bulletin_top);
 			</div>
 
 		</div>
+		<h2>重要提醒</h2>
 		<div class="alert alert-danger" style="text-align:center; font-weight:bolder; font-size:1.1vw; width:50%; margin-left:27%" role="alert">
 
 			考量租屋安全，<br>請同學選擇完成消防及耐震檢測合格之房屋為宜!
