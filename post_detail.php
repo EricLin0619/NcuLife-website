@@ -259,8 +259,8 @@
                         // 取得檔案副檔名
                         $extension = strtolower(pathinfo($file_path, PATHINFO_EXTENSION));
                         
-                        // 定義需要直接下載的檔案類型
-                        $download_extensions = ['doc', 'docx', 'xls', 'xlsx', 'ppt', 'pptx', 'txt', 'zip', 'rar'];
+                        // 定義可預覽的檔案類型
+                        $preview_extensions = ['pdf', 'jpg', 'jpeg', 'png'];
                     ?>
                     <tr>
                         <td class="col-md-2">
@@ -268,7 +268,9 @@
                         </td>
                         <td class="col-md-10">
                             <label><p>
-                                <?php if (in_array($extension, $download_extensions)): ?>
+                                <?php 
+                                // 檢查副檔名是否在可預覽清單中
+                                if (!in_array(strtolower($extension), $preview_extensions)): ?>
                                     <!-- 直接下載的檔案 -->
                                     <a href="<?php echo htmlspecialchars($file_path); ?>" 
                                        download="<?php echo htmlspecialchars($file_name); ?>"

@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="zh-TW">
 <head>
 <meta charset="utf-8">
 <meta name="keywords" content="图片轮播，图片切换，焦点图" />
@@ -47,7 +47,7 @@ $(function() {
    		<div id="slider" class="flexslider">
           <ul class="slides">
           <?php for ($x=1; $x <=64;$x++) { ?>
-            <li><img src="./30/<?php echo $x ?>.jpg" alt=""></li>
+            <li><img src="./30/<?php echo $x ?>.jpg" alt="<?php echo $x ?>"></li>
             <?php }  ?>
           </ul>
      	</div>

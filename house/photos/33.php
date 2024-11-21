@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="zh-TW"  >
 
 <head>
     <meta charset="utf-8">
