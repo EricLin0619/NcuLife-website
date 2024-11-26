@@ -1,17 +1,17 @@
 ﻿<?php require_once('conn_military.php');  ?>
 
-<!--?php
+<?php
     header("Content-Type: text/html; charset=utf-8");
     if(!isset($_SESSION)) { session_start(); }
     if(!isset($_SESSION['browse'])){
         $_SESSION['browse'] = 0;
     }
-    $browse = $_SESSION['browse'];
-    if ($browse == 0){
-        header('Location: epaper/index.php');
-        exit;
-    }
-?-->
+    // $browse = $_SESSION['browse'];
+    // if ($browse == 0){
+    //     header('Location: epaper/index.php');
+    //     exit;
+    // }
+?>
 <?php
 
     //今天日期
@@ -350,16 +350,12 @@
         </div>
         <div class="row">
             <div class="col-md-9">
-                <h2><a href="index.php" title="前往最新公告列表"><span class="fa fa-bullhorn"> 最新公告</span></a></h2>
+                <h2><a href="index.php" title="最新公告"><span class="fa fa-bullhorn"> 最新公告</span></a></h2>
             </div>
             <div class="dropdown col-md-2" style="margin-top: 20px;">
                 <form name='form1'>
-                    <label for="classify">公告類別：</label>
-                    <select class="custom-select" 
-                            name="classify" 
-                            id="classify" 
-                            title="選擇要查詢的公告類別"
-                            onChange="window.open('?class=' +document.form1.classify.value,'_parent');">
+                    <label for="classify">類別查詢</label>
+                    <select class="custom-select" name="classify" id="classify" title="類別查詢" onChange="window.open('?class=' +document.form1.classify.value,'_parent');">
                         <option value="0" selected>查詢類別消息</option>
                         <option value="校園安全">校園安全</option>
                         <option value="交通安全">交通安全</option>
@@ -401,10 +397,7 @@
                             <!--置頂公告-->
                             <td><?php echo substr($row_military_bulletin_top['time'],0,10); ?></td>
                             <td><?php echo $row_military_bulletin_top['class']; ?></td>
-                            <td><a href="post_detail.php?no=<?php echo $row_military_bulletin_top['no']; ?>" title="查看公告：<?php echo $row_military_bulletin_top['title']; ?>">
-                                <?php echo $row_military_bulletin_top['title']; ?>
-                                <img src="images/Bulb.gif" width="35" height="40" alt="置頂公告標示" />
-                            </a></td>
+                            <td><a href="post_detail.php?no=<?php echo $row_military_bulletin_top['no']; ?>" title="<?php echo $row_military_bulletin_top['title'];?>"><?php echo $row_military_bulletin_top['title']; ?><img src="images/Bulb.gif" width="35" height="40" alt="images/Bulb.gif" /></a></td>
                         </tr>
                         <?php } while ($row_military_bulletin_top = mysqli_fetch_assoc($military_bulletin_top)); ?>
                         <?php } ?>
@@ -412,9 +405,7 @@
                         <tr>
                             <td><?php echo substr($row_military_bulletin['time'],0,10);?></td>
                             <td><?php echo $row_military_bulletin['class'];?></td>
-                            <td><a href="post_detail.php?no=<?php echo $row_military_bulletin['no']; ?>" title="查看公告：<?php echo $row_military_bulletin['title']; ?>">
-                                <?php echo $row_military_bulletin['title']; ?>
-                            </a></td>
+                            <td><a href="post_detail.php?no=<?php echo $row_military_bulletin['no'];?>" title="<?php echo $row_military_bulletin['title'];?>"><?php echo $row_military_bulletin['title'];?></a></td>
                         </tr>
                         <?php } while ($row_military_bulletin = mysqli_fetch_assoc($military_bulletin)); ?>
                         <tr>
@@ -428,14 +419,10 @@
                             $queryString_military_bulletin = "";
                             if (empty($_GET['class'])){
 					    ?>
-                        <li><a href="<?php printf("%s?pageNum_military_bulletin=%d%s", $currentPage, 0, $queryString_military_bulletin); ?>" title="前往第一頁">
-                            <span aria-hidden="true">第一頁</span>
-                        </a></li>
+                        <li><a href="<?php printf("%s?pageNum_military_bulletin=%d%s", $currentPage, 0, $queryString_military_bulletin); ?>" title="第一頁"><span aria-hidden="true">第一頁</span></a></li>
                         <?php
                             if($pageNum_military_bulletin>0){?>
-                                <li><a href="<?php printf("%s?pageNum_military_bulletin=%d%s", $currentPage, $pageNum_military_bulletin-1, $queryString_military_bulletin); ?>" title="前往上一頁">
-                                    <span aria-hidden="true">上一頁</span>
-                                </a></li>
+                                <li><a href="<?php printf("%s?pageNum_military_bulletin=%d%s", $currentPage, $pageNum_military_bulletin-1, $queryString_military_bulletin); ?>" title="上一頁"><span aria-hidden="true">上一頁</span></a></li>
                         <?php }?>
                         <?php
 							if($pageNum_military_bulletin<$totalPages_military_bulletin){
@@ -443,9 +430,7 @@
                                 while($i-$pageNum_military_bulletin <= 10){
                                     if($i-1 <= $totalPages_military_bulletin){
                                         ?>
-                        <li><a href="<?php printf("%s?pageNum_military_bulletin=%d%s", $currentPage, $i-1, $queryString_military_bulletin); ?>" title="前往第 <?php echo $i ?> 頁">
-                            <?php echo $i ?>
-                        </a></li>
+                        <li><a href="<?php printf("%s?pageNum_military_bulletin=%d%s", $currentPage, $i-1, $queryString_military_bulletin); ?>" title="第<?php echo $i ?>頁"><?php echo $i ?></a></li>
                         <?php
                             $i += 1;
                             }
@@ -457,34 +442,24 @@
                         ?>
                         <?php
                             if($pageNum_military_bulletin<$totalPages_military_bulletin){?>
-                                <li><a href="<?php printf("%s?pageNum_military_bulletin=%d%s", $currentPage, $pageNum_military_bulletin+1, $queryString_military_bulletin); ?>" title="前往下一頁">
-                                    <span aria-hidden="true">下一頁</span>
-                                </a></li>
+                                <li><a href="<?php printf("%s?pageNum_military_bulletin=%d%s", $currentPage, $pageNum_military_bulletin+1, $queryString_military_bulletin); ?>" title="下一頁"><span aria-hidden="true">下一頁</span></a></li>
                             <?php }?>
-                        <li><a href="<?php printf("%s?pageNum_military_bulletin=%d%s", $currentPage, $totalPages_military_bulletin, $queryString_military_bulletin); ?>" title="前往最末頁">
-                            <span aria-hidden="true">最末頁</span>
-                        </a></li>
+                        <li><a href="<?php printf("%s?pageNum_military_bulletin=%d%s", $currentPage, $totalPages_military_bulletin, $queryString_military_bulletin); ?>" title="最末頁"><span aria-hidden="true">最末頁</span></a></li>
                         <?php
 								}
 								else if (!empty($_GET['class']))
 								{
 									$c = $_GET['class'];
 									?>
-                        <li><a href="<?php printf("%s?class=$c&pageNum_military_bulletin=%d%s", $currentPage, 0, $queryString_military_bulletin); ?>" title="前往第一頁">
-                            <span aria-hidden="true">第一頁</span>
-                        </a></li>
+                        <li><a href="<?php printf("%s?class=$c&pageNum_military_bulletin=%d%s", $currentPage, 0, $queryString_military_bulletin); ?>" title="第一頁"><span aria-hidden="true">第一頁</span></a></li>
                         <?php
 							for($i = 0; $i <= $totalPages_military_bulletin; $i++){
-											?>
-                        <li><a href="<?php printf("%s?class=$c&pageNum_military_bulletin=%d%s", $currentPage, $i, $queryString_military_bulletin); ?>" title="前往第 <?php echo ($i+1) ?> 頁">
-                            <?php echo ($i+1) ?>
-                        </a></li>
+										?>
+                        <li><a href="<?php printf("%s?class=$c&pageNum_military_bulletin=%d%s", $currentPage, $i, $queryString_military_bulletin); ?>" title="第<?php echo ($i+1) ?>頁"><?php echo ($i+1) ?></a></li>
                         <?php
 									}
 									?>
-                        <li><a href="<?php printf("%s?class=$c&pageNum_military_bulletin=%d%s", $currentPage, $totalPages_military_bulletin, $queryString_military_bulletin); ?>" title="前往最末頁">
-                            <span aria-hidden="true">最末頁</span>
-                        </a></li>
+                        <li><a href="<?php printf("%s?class=$c&pageNum_military_bulletin=%d%s", $currentPage, $totalPages_military_bulletin, $queryString_military_bulletin); ?>" title="最末頁"><span aria-hidden="true">最末頁</span></a></li>
                         <?php
 								}
 								?>
@@ -495,13 +470,13 @@
                 <h4 style="margin: 15px;"><span class="fa fa-link"> 快速連結</span></h4>
                 <ul class="nav flex-column bg-orange2 nav-light" style="border-radius: 15px;">
                     <li class="nav-item">
-                        <a class="nav-link" href="http://cis.ncu.edu.tw/iNCU/academic/register/checkStudentState" title="前往兵役緩徵查詢系統">兵役緩徵查詢</a>
+                        <a class="nav-link" href="http://cis.ncu.edu.tw/iNCU/academic/register/checkStudentState">兵役緩徵查詢</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Q&A.php" title="查看常見問題與解答">常見Q&A</a>
+                        <a class="nav-link" href="Q&A.php">常見Q&A</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://cis.ncu.edu.tw/Scholarship" title="前往獎助學金管理系統">獎助學金管理系統</a>
+                        <a class="nav-link" href="https://cis.ncu.edu.tw/Scholarship">獎助學金管理系統</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://portal.ncu.edu.tw/system/42">就學補助系統</a>
@@ -519,28 +494,27 @@
         <br>
         <div class="row">
             <div class="card" style="width: 18rem; margin: auto;">
-                <img class="card-img-top" src="images/review/110上各項封面.JPG" alt="110學年度上學期獎學金頒獎典禮照片">
+                <img class="card-img-top" src="images/review/110上各項封面.JPG" alt="Card image cap" style="object-fit: cover;">
                 <div class="card-body">
                     <h4 class="card-title"><strong>110上各項獎學金頒獎典禮</strong></h4>
                     <p class="card-text">包含本校各項獎學金，如羅家倫校長紀念獎學金、優學學生獎學金等，圖中為110學年度上學期的得獎者及各級師長。</p>
-                    <a href="https://photos.app.goo.gl/R3h4kqcFMiEM6ZDU6" class="btn btn-dark" title="查看110學年度上學期獎學金頒獎典禮相簿">相簿連結</a>
+                    <a href="https://photos.app.goo.gl/R3h4kqcFMiEM6ZDU6" class="btn btn-dark" title="110上各項獎學金頒獎典禮">相簿連結</a>
                 </div>
             </div>
             <div class="card" style="width: 18rem; margin: auto; ">
-                <img class="card-img-top" src="images/review/110朱順一封面.JPG" alt="110學年度朱順一合勤獎學金頒獎典禮照片">
+                <img class="card-img-top" src="images/review/110朱順一封面.JPG" alt="Card image cap">
                 <div class="card-body">
                     <h4 class="card-title"><strong>朱順一合勤獎學金頒獎典禮</strong></h4>
                     <p class="card-text">合勤科技董事長朱順一博士勉勵同學「態度決定高度」，眼界多大世界就有多大，藉由本項獎學金讓更多優秀學子用教育翻轉人生。</p>
-                    <a href="https://photos.app.goo.gl/rGwejUaRcc7Jhvsi7" class="btn btn-dark">相簿連結</a>
-                    <!-- "http://studentservices.ncu.edu.tw/wp/simpleviewer/20190614/index.php"-->
+                    <a href="https://photos.app.goo.gl/rGwejUaRcc7Jhvsi7" class="btn btn-dark" title="朱順一合勤獎學金頒獎典禮">相簿連結</a>
                 </div>
             </div>
             <div class="card" style="width: 18rem; margin: auto;">
-                <img class="card-img-top" src="images/review/109上各項.jpg" alt="109學年度上學期獎學金頒獎典禮照片">
+                <img class="card-img-top" src="images/review/109上各項.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h4 class="card-title"><strong>109上各項獎學金頒獎典禮</strong></h4>
                     <p class="card-text">包含本校各項獎學金，如羅家倫校長紀念獎學金、優學學生獎學金等，圖中為109學年度上學期的得獎者及各級師長。</p>
-                    <a href="https://photos.app.goo.gl/zhZRJdg6Du2W5LD57" class="btn btn-dark">相簿連結</a>
+                    <a href="https://photos.app.goo.gl/zhZRJdg6Du2W5LD57" class="btn btn-dark" title="109上各項獎學金頒獎典禮">相簿連結</a>
                 </div>
             </div>
         </div>
@@ -548,7 +522,7 @@
         <hr><br>
         
     </div>
-    <a href="#Z" title="前往下方功能區塊" id="AZ" accesskey="Z" name="Z">:::</a>
+    <a href="#Z" title="下方功能區塊" id="AZ" accesskey="Z" name="Z">:::</a>
     <?php include "footer.php"?>
 </body>
 
